@@ -29,7 +29,7 @@ for year in range(2015, datetime.datetime.now().year + 1):
             news_collection.extend(news_data)
 
 # Save data to a single JSON file
-with open("msft_stock_news_2015_to_present.json", "w") as file:
+with open("msft_stock.json", "w") as file:
     json.dump(news_collection, file, indent=4)
 
-print("News collection complete. Data saved to 'msft_stock_news_2015_to_present.json'.")
+print("News collection complete. Data saved to 'msft_stock_news.json'.")

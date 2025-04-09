@@ -52,23 +52,11 @@ def add_technical_indicators(df):
     return df
 
 # Fetch and process data
-def main():
-    symbol = "MSFT"
-    df = get_stock_data(symbol)
-    df = add_technical_indicators(df)
-    print(df.tail())  # Display the last few rows
-    return df
 
-if __name__ == "__main__":
-    msft_data = main()
+symbol = "MSFT"
+msft_data = get_stock_data(symbol)
+msft_data = add_technical_indicators(msft_data)
 
-
-
-
-
-# Further processing
-
-# Flatten the MultiIndex columns by taking only the first level
 msft_data.columns = msft_data.columns.get_level_values(0)
 
 # Reset index to ensure 'Date' is a column
@@ -79,6 +67,15 @@ msft_data = msft_data.drop(columns=['level_0', 'index'], errors='ignore')
 
 # Convert 'Date' to datetime format
 msft_data['Date'] = pd.to_datetime(msft_data['Date'])
+
+
+
+
+
+
+# Further processing
+
+# Flatten the MultiIndex columns by taking only the first level
 
 # Save msft_data as csv file
 
