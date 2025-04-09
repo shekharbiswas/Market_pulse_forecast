@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 import re
 import pandas as pd
 import yfinance as yf
-
+import yaml
 
 def collect_news_sentiment_with_rolling(ticker="MSFT", start_date="2015-01-01", end_date=None):
     # === PART 1: Download News ===
@@ -139,7 +139,7 @@ def collect_news_sentiment_with_rolling(ticker="MSFT", start_date="2015-01-01", 
 
 # collect_news_sentiment_with_rolling("MSFT", "2019-01-01", "2020-12-31")
 
-def collect_msft_data(ticker="MSFT", start_date="2019-01-01", end_date=None):
+def collect_stock_data(ticker="MSFT", start_date="2019-01-01", end_date=None):
     # === Fetch historical stock price data using Yahoo Finance ===
     df = yf.download(ticker, start=start_date, end=end_date)
 
@@ -189,23 +189,37 @@ def collect_msft_data(ticker="MSFT", start_date="2019-01-01", end_date=None):
     return df
 
 # Example usage:
-# df = collect_msft_data("MSFT", "2020-01-01", "2023-12-31")
+# df = collect_stock_data("MSFT", "2020-01-01", "2023-12-31")
 # Load sentiment data
-df = collect_news_sentiment_with_rolling(ticker= "MSFT",  start_date="2019-01-01", end_date="2020-12-31")
+
+
+
+
+
+# Load YAML config
+with open("config/settings.yml", "r") as f:
+    config = yaml.safe_load(f)
+
+# Access values
+ticker = config.get("ticker")
+start_date = config.get("start_date")
+end_date = config.get("end_date")
+
+df = collect_news_sentiment_with_rolling(ticker= ticker ,  start_date=start_date, end_date=end_date)
 
 df['publishedDate'] = pd.to_datetime(df['publishedDate']).dt.date
 df['publishedDate'] = pd.to_datetime(df['publishedDate'])
 
 # Load stock data
-msft_data = collect_msft_data(ticker="MSFT", start_date="2019-01-01", end_date="2020-12-31")
-msft_data['Date'] = pd.to_datetime(msft_data['Date'])
+stock_data = collect_stock_data(ticker= ticker ,  start_date=start_date, end_date=end_date)
+stock_data['Date'] = pd.to_datetime(stock_data['Date'])
 
 # Step 1: Aggregate sentiment per day (average, can also use sum, etc.)
 # Replace 'sentiment_score' with your actual sentiment column
 daily_sentiment = df.groupby('publishedDate', as_index=False).mean(numeric_only=True)
 
 # Step 2: Merge sentiment into stock data
-merged_data = pd.merge(msft_data, daily_sentiment, left_on='Date', right_on='publishedDate', how='left')
+merged_data = pd.merge(stock_data, daily_sentiment, left_on='Date', right_on='publishedDate', how='left')
 
 
 # Step 4 (Optional): Fill missing sentiment with 0 if you prefer
