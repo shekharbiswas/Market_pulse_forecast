@@ -212,4 +212,31 @@ merged_data = pd.merge(msft_data, daily_sentiment, left_on='Date', right_on='pub
 # merged_data['sentiment_score'] = merged_data['sentiment_score'].fillna(0)
 
 # Save final cleaned dataset
-merged_data.to_csv('data\\merged_data.csv', index=False)
+
+
+with open("data/merged_schema.json", "r") as f:
+    schema = json.load(f)
+
+expected_columns = schema["columns"]
+expected_dtypes = schema["dtypes"]
+
+# Add missing columns
+for col in expected_columns:
+    if col not in merged_data.columns:
+        merged_data[col] = pd.NA
+
+# Drop extra columns
+merged_data = merged_data[[col for col in expected_columns if col in merged_data.columns]]
+
+# Reorder
+merged_data = merged_data[expected_columns]
+
+# Match data types
+for col, dtype in expected_dtypes.items():
+    try:
+        merged_data[col] = merged_data[col].astype(dtype)
+    except:
+        pass  # Skip type casting error
+
+# Save cleaned version
+merged_data.to_csv("data/merged_data.csv", index=False)
