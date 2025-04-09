@@ -171,6 +171,10 @@ Designed for experimentation and reusability:
 
 ## Execution
 
+### Prepare data (1st step)
+
+python run.py --mode data-prep
+
 ### Train and evaluation
 - python run.py --mode train
 - python run.py --mode evaluate

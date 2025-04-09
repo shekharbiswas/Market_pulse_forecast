@@ -49,7 +49,7 @@ def collect_news_sentiment_with_rolling(ticker="MSFT", start_date="2015-01-01", 
                 news_collection.extend(news_data)
 
     # Save raw JSON
-    raw_file = f"{ticker.lower()}_stock_news.json"
+    raw_file = f"data/{ticker.lower()}_stock_news.json"
     with open(raw_file, "w") as file:
         json.dump(news_collection, file, indent=4)
     print(f"News collection complete. Data saved to '{raw_file}'.")
@@ -195,62 +195,62 @@ def collect_stock_data(ticker="MSFT", start_date="2019-01-01", end_date=None):
 
 
 
+def run_data_preparation ():
+    # Load YAML config
+    with open("config/settings.yml", "r") as f:
+        config = yaml.safe_load(f)
 
-# Load YAML config
-with open("config/settings.yml", "r") as f:
-    config = yaml.safe_load(f)
+    # Access values
+    ticker = config.get("ticker")
+    start_date = config.get("start_date")
+    end_date = config.get("end_date")
 
-# Access values
-ticker = config.get("ticker")
-start_date = config.get("start_date")
-end_date = config.get("end_date")
+    df = collect_news_sentiment_with_rolling(ticker= ticker ,  start_date=start_date, end_date=end_date)
 
-df = collect_news_sentiment_with_rolling(ticker= ticker ,  start_date=start_date, end_date=end_date)
+    df['publishedDate'] = pd.to_datetime(df['publishedDate']).dt.date
+    df['publishedDate'] = pd.to_datetime(df['publishedDate'])
 
-df['publishedDate'] = pd.to_datetime(df['publishedDate']).dt.date
-df['publishedDate'] = pd.to_datetime(df['publishedDate'])
+    # Load stock data
+    stock_data = collect_stock_data(ticker= ticker ,  start_date=start_date, end_date=end_date)
+    stock_data['Date'] = pd.to_datetime(stock_data['Date'])
 
-# Load stock data
-stock_data = collect_stock_data(ticker= ticker ,  start_date=start_date, end_date=end_date)
-stock_data['Date'] = pd.to_datetime(stock_data['Date'])
+    # Step 1: Aggregate sentiment per day (average, can also use sum, etc.)
+    # Replace 'sentiment_score' with your actual sentiment column
+    daily_sentiment = df.groupby('publishedDate', as_index=False).mean(numeric_only=True)
 
-# Step 1: Aggregate sentiment per day (average, can also use sum, etc.)
-# Replace 'sentiment_score' with your actual sentiment column
-daily_sentiment = df.groupby('publishedDate', as_index=False).mean(numeric_only=True)
-
-# Step 2: Merge sentiment into stock data
-merged_data = pd.merge(stock_data, daily_sentiment, left_on='Date', right_on='publishedDate', how='left')
-
-
-# Step 4 (Optional): Fill missing sentiment with 0 if you prefer
-# merged_data['sentiment_score'] = merged_data['sentiment_score'].fillna(0)
-
-# Save final cleaned dataset
+    # Step 2: Merge sentiment into stock data
+    merged_data = pd.merge(stock_data, daily_sentiment, left_on='Date', right_on='publishedDate', how='left')
 
 
-with open("data/merged_schema.json", "r") as f:
-    schema = json.load(f)
+    # Step 4 (Optional): Fill missing sentiment with 0 if you prefer
+    # merged_data['sentiment_score'] = merged_data['sentiment_score'].fillna(0)
 
-expected_columns = schema["columns"]
-expected_dtypes = schema["dtypes"]
+    # Save final cleaned dataset
 
-# Add missing columns
-for col in expected_columns:
-    if col not in merged_data.columns:
-        merged_data[col] = pd.NA
 
-# Drop extra columns
-merged_data = merged_data[[col for col in expected_columns if col in merged_data.columns]]
+    with open("data/merged_schema.json", "r") as f:
+        schema = json.load(f)
 
-# Reorder
-merged_data = merged_data[expected_columns]
+    expected_columns = schema["columns"]
+    expected_dtypes = schema["dtypes"]
 
-# Match data types
-for col, dtype in expected_dtypes.items():
-    try:
-        merged_data[col] = merged_data[col].astype(dtype)
-    except:
-        pass  # Skip type casting error
+    # Add missing columns
+    for col in expected_columns:
+        if col not in merged_data.columns:
+            merged_data[col] = pd.NA
 
-# Save cleaned version
-merged_data.to_csv("data/merged_data.csv", index=False)
+    # Drop extra columns
+    merged_data = merged_data[[col for col in expected_columns if col in merged_data.columns]]
+
+    # Reorder
+    merged_data = merged_data[expected_columns]
+
+    # Match data types
+    for col, dtype in expected_dtypes.items():
+        try:
+            merged_data[col] = merged_data[col].astype(dtype)
+        except:
+            pass  # Skip type casting error
+
+    # Save cleaned version
+    merged_data.to_csv("data/merged_data.csv", index=False)

@@ -19,6 +19,10 @@ from explainability.lime_explainer import explain_with_lime
 from explainability.saliency import compute_saliency
 from explainability.counterfactuals import plot_counterfactual_sensitivity
 
+import yaml
+from data_prep import run_data_preparation
+
+
 def set_seed(seed=42):
     random.seed(seed)
     np.random.seed(seed)
@@ -111,7 +115,11 @@ def main(mode, method, config):
         use_attention=config["explainability"]["use_attention"]
     )
 
-    if mode == "train":
+    if mode == "data-prep":
+        print("🚀 Running data preparation pipeline...")
+        run_data_preparation()  # This function should exist inside data_prep.py
+
+    elif mode == "train":
         train_loader, _ = prepare_dataloaders(train_df, test_df, seq_len, config["model"]["batch_size"])
         train_model(model, train_loader, None, config, scaler)  # ⛔ removed timestamps
         os.makedirs("artifacts", exist_ok=True)
@@ -151,7 +159,7 @@ def main(mode, method, config):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["train", "evaluate", "explain", "tune"], required=True)
+    parser.add_argument("--mode", choices=["data-prep","train", "evaluate", "explain", "tune"], required=True)
     parser.add_argument("--method", default="shap", help="explanation method: shap/lime/saliency/counterfactual")
     parser.add_argument("--split_method", choices=["chronological", "expanding", "rolling", "kfold"], default="chronological")
 
