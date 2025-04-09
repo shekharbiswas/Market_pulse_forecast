@@ -131,7 +131,7 @@ def collect_news_sentiment_with_rolling(ticker="MSFT", start_date="2015-01-01", 
     df.reset_index(inplace=True)
 
     output_path = f"{ticker.lower()}_stock_news_sentiment.csv"
-    df.to_csv(output_path, index=False)
+    #df.to_csv(output_path, index=False)
     print(f"✅ Sentiment-enriched data saved to: {output_path}")
     return df
 
