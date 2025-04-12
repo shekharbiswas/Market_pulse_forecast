@@ -165,6 +165,8 @@ Designed for experimentation and reusability:
   ├── config/ 
   │   └── settings.yaml              # Feature selection, model config, etc. 
   │ 
+  ├── data_prep.py                   # Based on stock ticker (settings.yaml), prepares your data
+  │  
   └── run.py                         # Entry point for training & experimentation </pre>
 
 
