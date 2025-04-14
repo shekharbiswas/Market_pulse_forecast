@@ -165,6 +165,8 @@ Designed for experimentation and reusability:
   ├── config/ 
   │   └── settings.yaml              # Feature selection, model config, etc. 
   │ 
+  ├── data_prep.py                   # Based on stock ticker (settings.yaml), prepares your data
+  │  
   └── run.py                         # Entry point for training & experimentation </pre>
 
 
@@ -201,3 +203,8 @@ python run.py --mode data-prep
 - python run.py --mode explain --method lime
 - python run.py --mode explain --method saliency
 - python run.py --mode explain --method counterfactual
+
+
+---
+
+© 2025 SB. All rights reserved.
