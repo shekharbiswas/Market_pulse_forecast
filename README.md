@@ -208,20 +208,20 @@ python run.py --mode data-prep
 - python run.py --mode tune
 
 
+### Explanantion
+
 <details>
-  <summary>### Explanantion </summary>
+  <summary>Pass explanantion methods </summary>
   
-  - python run.py --mode train
-  - python run.py --mode evaluate
+  - python run.py --mode explain --method shap
+  - python run.py --mode explain --method lime
+  - python run.py --mode explain --method saliency
+  - python run.py --mode explain --method counterfactual
+
 </details>
 
 
-### Explanantion
 
-- python run.py --mode explain --method shap
-- python run.py --mode explain --method lime
-- python run.py --mode explain --method saliency
-- python run.py --mode explain --method counterfactual
 
 
 ---
