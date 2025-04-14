@@ -181,6 +181,7 @@ python run.py --mode data-prep
 
 <details>
   <summary>Train and Evaluation default </summary>
+  
   - python run.py --mode train
   - python run.py --mode evaluate
 </details>
