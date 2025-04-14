@@ -205,7 +205,8 @@ python run.py --mode data-prep
 
 
 ### Tuning
-- python run.py --mode tune
+
+python run.py --mode tune
 
 
 ### Explanantion
