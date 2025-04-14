@@ -178,13 +178,17 @@ Designed for experimentation and reusability:
 python run.py --mode data-prep
 
 ### Train and evaluation
-- python run.py --mode train
-- python run.py --mode evaluate
+
+<details>
+  <summary>Train and Evaluation default </summary>
+  - python run.py --mode train
+  - python run.py --mode evaluate
+</details>
 
 (by default, it will choose chronological, to change please use below format)
 
 <details>
-  <summary>Train and Evaluation</summary>
+  <summary>Train and Evaluation with other split methods </summary>
 
   - python run.py --mode train --split_method expanding
   - python run.py --mode evaluate --split_method expanding
@@ -194,7 +198,6 @@ python run.py --mode data-prep
   
   - python run.py --mode train --split_method kfold
   - python run.py --mode evaluate --split_method kfold
-
 </details>
 
 
