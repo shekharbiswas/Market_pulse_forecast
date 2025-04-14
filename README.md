@@ -183,15 +183,21 @@ python run.py --mode data-prep
 
 (by default, it will choose chronological, to change please use below format)
 
+<details>
+  <summary>Train and Evaluation</summary>
 
-- python run.py --mode train --split_method expanding
-- python run.py --mode evaluate --split_method expanding
+  - python run.py --mode train --split_method expanding
+  - python run.py --mode evaluate --split_method expanding
+  
+  - python run.py --mode train --split_method rolling
+  - python run.py --mode evaluate --split_method rolling
+  
+  - python run.py --mode train --split_method kfold
+  - python run.py --mode evaluate --split_method kfold
 
-- python run.py --mode train --split_method rolling
-- python run.py --mode evaluate --split_method rolling
+</details>
 
-- python run.py --mode train --split_method kfold
-- python run.py --mode evaluate --split_method kfold
+
 
 
 ### Tuning
