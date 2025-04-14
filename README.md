@@ -173,7 +173,7 @@ Designed for experimentation and reusability:
 
 ## Execution
 
-### Prepare data (1st step)
+### Prepare data
 
 python run.py --mode data-prep
 
@@ -206,6 +206,15 @@ python run.py --mode data-prep
 
 ### Tuning
 - python run.py --mode tune
+
+
+<details>
+  <summary>### Explanantion </summary>
+  
+  - python run.py --mode train
+  - python run.py --mode evaluate
+</details>
+
 
 ### Explanantion
 
