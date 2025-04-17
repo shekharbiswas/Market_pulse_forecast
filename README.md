@@ -173,36 +173,56 @@ Designed for experimentation and reusability:
 
 ## Execution
 
-### Prepare data (1st step)
+### Prepare data
 
 python run.py --mode data-prep
 
 ### Train and evaluation
-- python run.py --mode train
-- python run.py --mode evaluate
+
+<details>
+  <summary>Train and Evaluation default </summary>
+  
+  - python run.py --mode train
+  - python run.py --mode evaluate
+</details>
 
 (by default, it will choose chronological, to change please use below format)
 
+<details>
+  <summary>Train and Evaluation with other split methods </summary>
 
-- python run.py --mode train --split_method expanding
-- python run.py --mode evaluate --split_method expanding
+  - python run.py --mode train --split_method expanding
+  - python run.py --mode evaluate --split_method expanding
+  
+  - python run.py --mode train --split_method rolling
+  - python run.py --mode evaluate --split_method rolling
+  
+  - python run.py --mode train --split_method kfold
+  - python run.py --mode evaluate --split_method kfold
+</details>
 
-- python run.py --mode train --split_method rolling
-- python run.py --mode evaluate --split_method rolling
 
-- python run.py --mode train --split_method kfold
-- python run.py --mode evaluate --split_method kfold
 
 
 ### Tuning
-- python run.py --mode tune
+
+python run.py --mode tune
+
 
 ### Explanantion
 
-- python run.py --mode explain --method shap
-- python run.py --mode explain --method lime
-- python run.py --mode explain --method saliency
-- python run.py --mode explain --method counterfactual
+<details>
+  <summary>Pass explanantion methods </summary>
+  
+  - python run.py --mode explain --method shap
+  - python run.py --mode explain --method lime
+  - python run.py --mode explain --method saliency
+  - python run.py --mode explain --method counterfactual
+
+</details>
+
+
+
 
 
 <pre>
