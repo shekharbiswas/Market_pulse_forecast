@@ -205,6 +205,19 @@ python run.py --mode data-prep
 - python run.py --mode explain --method counterfactual
 
 
+<pre>
+
+| #  | Checkpoint Name         | Description                                      | File to Hash               |
+|----|--------------------------|--------------------------------------------------|----------------------------|
+| 1  | data_preparation         | After downloading raw financial data             | aapl_data.json             |
+| 2  | train_dataset_snapshot   | Train split saved after split strategy applied   | train_data.json            |
+| 3  | trained_model_weights    | Model weights after training                     | model_weights.h5 or .pt    |
+| 4  | training_metrics         | Training metrics like loss, accuracy             | train_results.json         |
+| 5  | evaluation_metrics       | Evaluation metrics on test set                   | eval_results.json          |
+| 6  | explanation_shap         | SHAP explanation data (summary values)           | shap_summary.json          |
+
+</pre>
+
 ---
 
 © 2025 SB. All rights reserved.
