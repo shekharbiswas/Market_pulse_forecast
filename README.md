@@ -222,7 +222,9 @@ python run.py --mode tune
 </details>
 
 
+## 🔐 Verifiable ML Pipeline with Blockchain
 
+This blockchain-based approach ensures end-to-end transparency and reproducibility of the ML pipeline by immutably logging hashes of critical artifacts. Instead of storing raw data, only cryptographic hashes of configurations, model states, and results are sent to the Sepolia testnet. Each hash acts as a verifiable fingerprint, guaranteeing that no step was altered post-recording. This method adds a layer of integrity and auditability without exposing sensitive or large datasets. It’s a lightweight yet powerful way to bring accountability into machine learning workflows.
 
 
 
@@ -251,7 +253,6 @@ python run.py --mode tune
 ### Protocol handling approach
 
 Hash each of these (from memory or temp object), send it to Sepolia, and log the returned transaction hash under the corresponding key.
-
 
 lstm_explanation_protocol = {
     "config_settings": tx_hash_hex_0,
