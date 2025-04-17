@@ -225,7 +225,6 @@ python run.py --mode tune
 
 
 
-<pre>
 
 | #  | Checkpoint Name         | Description                                      | File to Hash               |
 |----|--------------------------|--------------------------------------------------|----------------------------|
@@ -236,7 +235,7 @@ python run.py --mode tune
 | 5  | evaluation_metrics       | Evaluation metrics on test set                   | eval_results.json          |
 | 6  | explanation_shap         | SHAP explanation data (summary values)           | shap_summary.json          |
 
-</pre>
+
 
 ---
 
