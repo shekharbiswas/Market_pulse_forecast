@@ -254,7 +254,7 @@ This blockchain-based approach ensures end-to-end transparency and reproducibili
 
 Hash each of these (from memory or temp object), send it to Sepolia, and log the returned transaction hash under the corresponding key.
 
-```json
+```python
 lstm_explanation_protocol = {
     "config_settings": tx_hash_hex_0,
     "raw_data_hash": tx_hash_hex_1,
