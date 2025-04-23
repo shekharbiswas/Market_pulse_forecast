@@ -230,8 +230,7 @@ This blockchain-based approach ensures end-to-end transparency and reproducibili
 
 | #  | Checkpoint Name               | Description                                                            | Source for Hashing             |
 |----|-------------------------------|------------------------------------------------------------------------|--------------------------------|
-| 0  | config_settings               | Model + data settings from YAML                                        | settings.yaml                  |
-| 1  | raw_data_hash                 | Raw financial + sentiment data (in-memory snapshot)                    | df.to_json(orient="split")     |
+| 1  | config_settings               | Model + data settings from YAML                                        | settings.yaml                  |
 | 2  | feature_flags_hash            | Feature config from YAML                                               | settings.yaml["feature_flags"] |
 | 3  | split_strategy_hash           | Train/test split metadata (in-memory)                                  | metadata dict from splitter    |
 | 4  | train_dataset_hash            | Processed training set (in-memory)                                     | train_df.to_json()             |
