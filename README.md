@@ -222,21 +222,63 @@ python run.py --mode tune
 </details>
 
 
+## 🔐 Verifiable ML Pipeline with Blockchain
+
+This blockchain-based approach ensures end-to-end transparency and reproducibility of the ML pipeline by immutably logging hashes of critical artifacts. Instead of storing raw data, only cryptographic hashes of configurations, model states, and results are sent to the Sepolia testnet. Each hash acts as a verifiable fingerprint, guaranteeing that no step was altered post-recording. This method adds a layer of integrity and auditability without exposing sensitive or large datasets. It’s a lightweight yet powerful way to bring accountability into machine learning workflows.
 
 
 
-<pre>
+| #  | Checkpoint Name               | Description                                                            | Source for Hashing             |
+|----|-------------------------------|------------------------------------------------------------------------|--------------------------------|
+| 1  | config_settings               | Model + data settings from YAML                                        | settings.yaml                  |
+| 2  | feature_flags_hash            | Feature config from YAML                                               | settings.yaml["feature_flags"] |
+| 3  | split_strategy_hash           | Train/test split metadata (in-memory)                                  | metadata dict from splitter    |
+| 4  | train_dataset_hash            | Processed training set (in-memory)                                     | train_df.to_json()             |
+| 5  | val_dataset_hash              | Processed validation/test set                                          | test_df.to_json()              |
+| 6  | tuned_hyperparams_hash        | Final tuning params (as dict or json)                                  | tuning_result dict             |
+| 7  | model_weights_hash            | Raw model weights (in-memory bytes)                                    | model.get_weights() or .state_dict() |
+| 8  | training_metrics_hash         | Training loss/metrics per epoch                                        | history/history_callback       |
+| 9  | evaluation_metrics_hash       | Final evaluation scores                                                | metrics dict                   |
+|10  | attention_weights_hash        | If attention mechanism is used                                         | attention_output ndarray       |
+|11  | shap_explanation_hash         | SHAP explanation values (e.g. summary values)                          | shap_values.to_json()          |
+|12  | attention_plot_hash           | Attention heatmap as image in-memory                                   | BytesIO image buffer           |
+|13  | final_predictions_hash        | Model predictions vs true values                                       | predictions.to_json()          |
 
-| #  | Checkpoint Name         | Description                                      | File to Hash               |
-|----|--------------------------|--------------------------------------------------|----------------------------|
-| 1  | data_preparation         | After downloading raw financial data             | aapl_data.json             |
-| 2  | train_dataset_snapshot   | Train split saved after split strategy applied   | train_data.json            |
-| 3  | trained_model_weights    | Model weights after training                     | model_weights.h5 or .pt    |
-| 4  | training_metrics         | Training metrics like loss, accuracy             | train_results.json         |
-| 5  | evaluation_metrics       | Evaluation metrics on test set                   | eval_results.json          |
-| 6  | explanation_shap         | SHAP explanation data (summary values)           | shap_summary.json          |
 
-</pre>
+
+
+
+
+### Protocol handling approach
+
+Hash each of these (from memory or temp object), send it to Sepolia, and log the returned transaction hash under the corresponding key.
+
+```python
+lstm_explanation_protocol = {
+    "config_settings": tx_hash_hex_0,
+    "raw_data_hash": tx_hash_hex_1,
+    "feature_flags_hash": tx_hash_hex_2,
+    ...
+    "final_predictions_hash": tx_hash_hex_13
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
