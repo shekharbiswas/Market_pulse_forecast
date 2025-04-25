@@ -276,10 +276,11 @@ lstm_explanation_protocol = {
 
 
 
+<br>
+<br>
 
 
+--- 
 
+MIT License.
 
----
-
-© 2025 SB. All rights reserved.
