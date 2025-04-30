@@ -139,7 +139,7 @@ Implement multiple splitting strategies for robust model evaluation:
 
 ---
 
-## 5. 🧱 Modular Project Design
+## 5. 🧱 Framework
 
 Please make sure to run the **scripts** folder to prepare the data first.
 
@@ -276,10 +276,11 @@ lstm_explanation_protocol = {
 
 
 
+<br>
+<br>
 
 
+--- 
 
+MIT License.
 
----
-
-© 2025 SB. All rights reserved.
