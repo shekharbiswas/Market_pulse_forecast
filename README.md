@@ -308,7 +308,8 @@ python run.py --mode train --enable_hash_logging
 
 
 
-### ⚠️ Why LIME Is Excluded
+⚠️ Why LIME is excluded
+
 Although LIME (--method lime) is supported as an explanation method, it is not included in the checkpoint logging table because:
 
 - It currently does not return a structured, serializable object
@@ -331,13 +332,6 @@ lstm_explanation_protocol = {
     "final_predictions_hash": tx_hash_hex_13
 }
 ```
-
-
-
-
-
-
-
 
 
 
