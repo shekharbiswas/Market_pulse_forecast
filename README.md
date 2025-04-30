@@ -247,6 +247,50 @@ This blockchain-based approach ensures end-to-end transparency and reproducibili
 
 
 
+## ✅ Blockchain Checkpoint Logging
+
+This system records cryptographic fingerprints (SHA-256 hashes) of critical pipeline stages — called **checkpoints** — and stores them immutably on the Ethereum Sepolia testnet.
+
+### 🔒 Why Use This?
+
+- ✅ **Verifiable provenance**: You can prove that a model version, dataset, or configuration was created at a specific time.
+- ✅ **Tamper-proof audit trail**: Each transaction is immutable and traceable via Etherscan.
+- ✅ **Experiment reproducibility**: Log and verify what was used for training, evaluation, tuning, and explainability.
+
+Each hash is sent to the Sepolia testnet as an Ethereum transaction using a 0 ETH payload. A transaction hash (tx hash) is recorded for each checkpoint and stored locally in the `artifacts/` folder as a JSON file.
+
+
+### 🚀 How to Use
+
+Just add the `--enable_hash_logging` flag to any `run.py` command. Example:
+
+```bash
+python run.py --mode train --enable_hash_logging
+```
+
+
+| Command | Description | Checkpoints Logged |
+|--------|-------------|--------------------|
+| `python run.py --mode data-prep --enable_hash_logging` | Runs data preparation only | ❌ (no checkpoints logged) |
+| `python run.py --mode train --enable_hash_logging` | Trains the model with default split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `training_metrics_hash` |
+| `python run.py --mode evaluate --enable_hash_logging` | Evaluates the model and logs predictions | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `evaluation_metrics_hash`, `final_predictions_hash` |
+| `python run.py --mode tune --enable_hash_logging` | Tunes hyperparameters with all splits | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `tuned_hyperparams_hash` |
+| `python run.py --mode explain --method shap --enable_hash_logging` | Runs SHAP explanation on test set | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `shap_explanation_hash` |
+| `python run.py --mode explain --method saliency --enable_hash_logging` | Runs saliency/attention map generation | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `attention_weights_hash` |
+| `python run.py --mode explain --method counterfactual --enable_hash_logging` | Runs counterfactual analysis and plot | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `attention_plot_hash` |
+
+
+
+
+
+### ⚠️ Why LIME Is Excluded
+Although LIME (--method lime) is supported as an explanation method, it is not included in the checkpoint logging table because:
+
+- It currently does not return a structured, serializable object
+
+- LIME explanations are printed or visualized, but not stored in memory
+
+- As a result, no hash is generated or sent to Sepolia
 
 
 ### Protocol handling approach
