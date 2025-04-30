@@ -147,29 +147,43 @@ Designed for experimentation and reusability:
 
 <pre>
 
- market_pulse_forecast/ 
-  ├── data/ 
-  │     ├── loader.py                # Load and preprocess stock + sentiment data 
-  │     └── features.py              # Create & select technical and calendar features  
-  ├── splits/ 
-  │   └── splitter.py                # All time series splitting strategies 
-  ├── models/ 
-  │   └── lstm_model.py              # LSTM model definition with attention option 
-  ├── training/ 
-  │   └── trainer.py                 # Model training, evaluation, logging  
-  ├── explainability/ 
-  │   ├── shap_explainer.py          # Use SHAP to compute feature contribution scores
-  │   ├── lime_explainer.py          # Use LIME to explain individual model predictions
-  │   ├── saliency.py                # Visualize which time steps/inputs affect predictions
-  │   └── counterfactuals.py         # Generate what-if scenarios to explore prediction shifts
-  ├── tuning/ 
-  │   └── search.py                  # Grid/Random search for hyperparameters
-  ├── config/ 
-  │   └── settings.yaml              # Feature selection, model config, etc. 
-  │ 
-  ├── data_prep.py                   # Based on stock ticker (settings.yaml), prepares your data
-  │  
-  └── run.py   
+market_pulse_forecast/ 
+├── data/ 
+│   ├── loader.py                # Load and preprocess stock + sentiment data 
+│   └── features.py              # Create & select technical and calendar features  
+│
+├── splits/ 
+│   └── splitter.py              # All time series splitting strategies 
+│
+├── models/ 
+│   └── lstm_model.py            # LSTM model definition with optional attention mechanism 
+│
+├── training/ 
+│   └── trainer.py               # Model training, evaluation logic, and metric computation  
+│
+├── explainability/ 
+│   ├── shap_explainer.py        # Use SHAP to compute feature contribution scores
+│   ├── lime_explainer.py        # Use LIME to explain individual model predictions (non-logged)
+│   ├── saliency.py              # Visualize which time steps/inputs influence predictions
+│   └── counterfactuals.py       # Generate what-if scenarios to explore sensitivity
+│
+├── tuning/ 
+│   └── search.py                # Grid/Random search for hyperparameters (cross-split support)
+│
+├── config/ 
+│   └── settings.yaml            # Feature flags, model hyperparameters, and split settings
+│
+├── artifacts/                  # ✅ Auto-generated logs with blockchain tx hashes (one per run)
+│   └── checkpoint_log_*.json   # Timestamped log file of Sepolia transaction hashes per checkpoint
+│
+├── protocol_logger.py          # 🔐 Hashes & logs checkpoints immutably to Sepolia Ethereum testnet
+│                               #     → Supports 13 standard ML checkpoints (config, splits, models, etc.)
+│
+├── data_prep.py                # Fetches & prepares data (e.g. with yfinance), formats to CSV/json
+│
+└── run.py                      # 🚀 Main CLI entry point (train, evaluate, tune, explain)
+                               #     → Add `--enable_hash_logging` to log hashes on-chain
+
 
 </pre>
 
