@@ -289,23 +289,21 @@ python run.py --mode train --enable_hash_logging
 > ℹ️ **Important**: When using split methods like `expanding`, `rolling`, or `kfold`, ensure that the **same `--split_method` is used for both training and evaluation**.
 
 
-> ℹ️ **Important**: When using split methods like `expanding`, `rolling`, or `kfold`, make sure to use the **same `--split_method` for both training and evaluation** to ensure consistency.
-
 | Command | Description | Checkpoints Logged |
 |--------|-------------|--------------------|
 | `python run.py --mode data-prep --enable_hash_logging` | Runs data preparation only | ❌ (no checkpoints logged) |
 | `python run.py --mode train --enable_hash_logging` | Trains the model with default split (chronological) | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `training_metrics_hash` |
-| `python run.py --mode train --split_method expanding --enable_hash_logging` | Trains the model using expanding window split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `training_metrics_hash` |
-| `python run.py --mode train --split_method rolling --enable_hash_logging` | Trains the model using rolling window split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `training_metrics_hash` |
-| `python run.py --mode train --split_method kfold --enable_hash_logging` | Trains the model using time series k-fold split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `training_metrics_hash` |
 | `python run.py --mode evaluate --enable_hash_logging` | Evaluates the model with default split (chronological) | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `evaluation_metrics_hash`, `final_predictions_hash` |
+| `python run.py --mode train --split_method expanding --enable_hash_logging` | Trains the model using expanding window split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `training_metrics_hash` |
 | `python run.py --mode evaluate --split_method expanding --enable_hash_logging` | Evaluates the model using expanding window split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `evaluation_metrics_hash`, `final_predictions_hash` |
+| `python run.py --mode train --split_method rolling --enable_hash_logging` | Trains the model using rolling window split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `training_metrics_hash` |
 | `python run.py --mode evaluate --split_method rolling --enable_hash_logging` | Evaluates the model using rolling window split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `evaluation_metrics_hash`, `final_predictions_hash` |
+| `python run.py --mode train --split_method kfold --enable_hash_logging` | Trains the model using time series k-fold split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `training_metrics_hash` |
 | `python run.py --mode evaluate --split_method kfold --enable_hash_logging` | Evaluates the model using time series k-fold split | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `model_weights_hash`, `evaluation_metrics_hash`, `final_predictions_hash` |
-| `python run.py --mode tune --enable_hash_logging` | Tunes hyperparameters across all split methods | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `tuned_hyperparams_hash` |
 | `python run.py --mode explain --method shap --enable_hash_logging` | Runs SHAP explanation on test set | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `shap_explanation_hash` |
 | `python run.py --mode explain --method saliency --enable_hash_logging` | Runs saliency/attention map generation | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `attention_weights_hash` |
 | `python run.py --mode explain --method counterfactual --enable_hash_logging` | Runs counterfactual analysis and plot | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `attention_plot_hash` |
+| `python run.py --mode tune --enable_hash_logging` | Tunes hyperparameters across all split methods. Each run logs the selected split config and resulting best parameters. | ✅ `config_settings`, `feature_flags_hash`, `split_strategy_hash`, `train_dataset_hash`, `val_dataset_hash`, `tuned_hyperparams_hash` |
 
 
 
