@@ -145,7 +145,9 @@ Please make sure to run the **scripts** folder to prepare the data first.
 
 Designed for experimentation and reusability:
 
-<pre> market_pulse_forecast/ 
+<pre>
+
+ market_pulse_forecast/ 
   ├── data/ 
   │     ├── loader.py                # Load and preprocess stock + sentiment data 
   │     └── features.py              # Create & select technical and calendar features  
@@ -167,7 +169,9 @@ Designed for experimentation and reusability:
   │ 
   ├── data_prep.py                   # Based on stock ticker (settings.yaml), prepares your data
   │  
-  └── run.py                         # Entry point for training & experimentation </pre>
+  └── run.py   
+
+</pre>
 
 
 
