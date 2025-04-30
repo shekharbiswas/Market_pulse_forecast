@@ -173,16 +173,16 @@ market_pulse_forecast/
 ├── config/ 
 │   └── settings.yaml            # Feature flags, model hyperparameters, and split settings
 │
-├── artifacts/                  # ✅ Auto-generated logs with blockchain tx hashes (one per run)
-│   └── checkpoint_log_*.json   # Timestamped log file of Sepolia transaction hashes per checkpoint
+├── artifacts/                   # ✅ Auto-generated logs with blockchain tx hashes (one per run)
+│   └── checkpoint_log_*.json    # Timestamped log file of Sepolia transaction hashes per checkpoint
 │
-├── protocol_logger.py          # 🔐 Hashes & logs checkpoints immutably to Sepolia Ethereum testnet
-│                               #     → Supports 13 standard ML checkpoints (config, splits, models, etc.)
+├── protocol_logger.py           # 🔐 Hashes & logs checkpoints immutably to Sepolia Ethereum testnet
+│                                #     → Supports 13 standard ML checkpoints (config, splits, models, etc.)
 │
-├── data_prep.py                # Fetches & prepares data (e.g. with yfinance), formats to CSV/json
+├── data_prep.py                 # Fetches & prepares data (e.g. with yfinance), formats to CSV/json
 │
-└── run.py                      # 🚀 Main CLI entry point (train, evaluate, tune, explain)
-                               #     → Add `--enable_hash_logging` to log hashes on-chain
+└── run.py                       # 🚀 Main CLI entry point (train, evaluate, tune, explain)
+                                 #     → Add `--enable_hash_logging` to log hashes on-chain
 
 
 </pre>
