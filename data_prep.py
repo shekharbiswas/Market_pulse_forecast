@@ -13,7 +13,7 @@ def collect_news_sentiment_with_rolling(ticker="MSFT", start_date="2015-01-01", 
     # === PART 1: Download News ===
 
     # API key and base URL
-    api_key = "xxxxxxH7G6x2nowAxxxxxxxxkr0T"
+    api_key = "m8TZJWQFGH7G6x2nowAqKdzDfAyakr0T"
     base_url = "https://financialmodelingprep.com/api/v3/stock_news"
 
     # Set the tickers
