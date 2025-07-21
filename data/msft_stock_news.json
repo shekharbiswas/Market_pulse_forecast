@@ -4420,6 +4420,15 @@
     },
     {
         "symbol": "MSFT",
+        "publishedDate": "2021-05-24 14:07:58",
+        "title": "Israel Announces Over $1B Cloud Deal with Amazon, Google: Reuters",
+        "image": "https://images.financialmodelingprep.com/news/israel-announces-over-1b-cloud-deal-with-amazon-google-20210524.jpg",
+        "site": "benzinga.com",
+        "text": "The Israel government has signed over $1 billion public sector and military cloud service deal with\u00a0Amazon.com Inc's\u00a0(NASDAQ:\u00a0AMZN) Amazon Web Services (AWS) and\u00a0Alphabet Inc's\u00a0(NASDAQ:\u00a0GOOG) (NASDAQ:\u00a0GOOGL) Google,\u00a0Reuters reports. Last month, AWS and Google beat\u00a0Microsoft Corp\u00a0(NASDAQ:\u00a0MSFT),\u00a0Oracle Corp\u00a0(NYSE:\u00a0ORCL), and\u00a0International Business Machines Corp\u00a0(NYSE:\u00a0IBM) in the four-phase project \"Nimbus.",
+        "url": "https://www.benzinga.com/news/21/05/21261972/israel-announces-over-1b-cloud-deal-with-amazon-google-reuters"
+    },
+    {
+        "symbol": "MSFT",
         "publishedDate": "2021-05-24 14:07:29",
         "title": "Mutual funds have near-record-low exposure to elite FAAMG stocks \u2014 and that's actually helping their performance this year (FB, AMZN, AAPL, MSFT, GS)",
         "image": "https://images.financialmodelingprep.com/news/mutual-funds-have-nearrecordlow-exposure-to-elite-faamg-stocks-20210524.jpg",
@@ -4489,15 +4498,6 @@
         "site": "cnbc.com",
         "text": "Controversy has not been a hallmark of Satya Nadella's Microsoft. Now he's confronting his predecessor Bill Gates' behavior from 21 years ago.",
         "url": "https://www.cnbc.com/2021/05/21/microsoft-ceo-nadella-says-power-in-the-workplace-is-not-to-be-abused.html"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2021-05-21 13:12:00",
-        "title": "BMO investment arm sold Microsoft over U.S. Army headset deal",
-        "image": "https://images.financialmodelingprep.com/news/bmo-investment-arm-sold-microsoft-over-us-army-headset-20210521.jpg",
-        "site": "reuters.com",
-        "text": "A responsible-investment arm of Canada's Bank of Montreal sold roughly $275 million worth of Microsoft Corp shares because of the company's recent U.S. Army contract for augmented reality headsets, a bank spokesman said on Friday.",
-        "url": "https://www.reuters.com/technology/bmo-investment-arm-sold-microsoft-over-us-army-headset-deal-2021-05-21/"
     },
     {
         "symbol": "MSFT",
@@ -13141,182 +13141,362 @@
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-26 12:20:19",
-        "title": "Microsoft could hit $5 trillion thanks to AI, Dan Ives says",
-        "image": "https://images.financialmodelingprep.com/news/microsoft-could-hit-5-trillion-thanks-to-ai-dan-20250626.jpg",
-        "site": "youtube.com",
-        "text": "Wedbush hiked its price target on Microsoft to $600 on AI optimism. 'Transcript: CAROLINE WOODS: Microsoft continues to hit New all time highs Dan.",
-        "url": "https://www.youtube.com/watch?v=a41xYLA5L6g"
+        "publishedDate": "2025-07-01 09:00:00",
+        "title": "Microsoft teaming with Premier League to enhance soccer fans' digital experience using AI",
+        "image": "https://images.financialmodelingprep.com/news/microsoft-teaming-with-premier-league-to-enhance-soccer-fans-20250701.jpg",
+        "site": "geekwire.com",
+        "text": "Microsoft announced a new strategic partnership with the Premier League on Tuesday in which the tech giant will use its cloud an AI technology to provide a boost to the soccer league's digital infrastructure and fan-facing platforms.",
+        "url": "https://www.geekwire.com/2025/microsoft-teaming-with-premier-league-to-enhance-soccer-fans-digital-experience-using-ai/"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-26 11:10:12",
-        "title": "MSFT vs. PEGA: Which Agentic AI Vendor is a Better Buy in 2H25?",
-        "image": "https://images.financialmodelingprep.com/news/msft-vs-pega-which-agentic-ai-vendor-is-a-20250626.jpg",
-        "site": "zacks.com",
-        "text": "PEGA's specialized agentic AI focus offers superior upside versus MSFT's broader platform. Buy PEGA for concentrated AI exposure; hold/wait on MSFT for better entry.",
-        "url": "https://www.zacks.com/stock/news/2554747/msft-vs-pega-which-agentic-ai-vendor-is-a-better-buy-in-2h25?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2554747"
+        "publishedDate": "2025-07-01 06:07:24",
+        "title": "MSFO: Extracting Tax-Efficient Income From Microsoft",
+        "image": "https://images.financialmodelingprep.com/news/msfo-extracting-taxefficient-income-from-microsoft-20250701.jpg",
+        "site": "seekingalpha.com",
+        "text": "I maintain my buy rating on YieldMax MSFT Option Income Strategy ETF for its attractive total return and resilience compared to other YieldMax ETFs. MSFO is ideal for investors seeking high income, offering a 35%+ yield and tax-efficient distributions, mainly as a return of capital. The fund's synthetic options strategy caps upside and leads to price erosion, so it's best used alongside a long MSFT position, not for capital appreciation.",
+        "url": "https://seekingalpha.com/article/4798527-msfo-extracting-tax-efficient-income-from-microsoft"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-26 09:58:22",
-        "title": "Microsoft (NASDAQ: MSFT) Stock Price Prediction for 2025: Where Will It Be in 1 Year",
-        "image": "https://images.financialmodelingprep.com/news/microsoft-nasdaq-msft-stock-price-prediction-for-2025-where-20250626.jpg",
-        "site": "247wallst.com",
-        "text": "Shares of Microsoft (NASDAQ:MSFT)\u00a0gained 2.64% over the past\u00a0 trading sessions, increasing the tech giant's one-month gain to 7.41%.",
-        "url": "https://247wallst.com/investing/2025/06/26/microsoft-nasdaq-msft-stock-price-prediction-for-2025-where-will-it-be-in-1-year/"
+        "publishedDate": "2025-06-30 16:41:12",
+        "title": "Apple mulls using OpenAI or Anthropic to power Siri in big reversal: report",
+        "image": "https://images.financialmodelingprep.com/news/apple-mulls-using-openai-or-anthropic-to-power-siri-20250630.jpg",
+        "site": "nypost.com",
+        "text": "had in March said AI improvements to its voice assistant Siri will be\u00a0delayed until 2026, without giving a reason for the setback.",
+        "url": "https://nypost.com/2025/06/30/business/apple-mulls-using-openai-or-anthropic-to-power-siri-in-big-reversal-report/"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-26 09:55:00",
-        "title": "The Magnificent 7 Is Splitting. Why Microsoft and Meta Are Top of the Heap.",
-        "image": "https://images.financialmodelingprep.com/news/the-magnificent-7-is-splitting-why-microsoft-and-meta-are-20250626.jpg",
-        "site": "barrons.com",
-        "text": "Both companies have bigger year-to-date gains than Nvidia, though the chipmaker has a larger market capitalization.",
-        "url": "https://www.barrons.com/articles/mag-7-stocks-gains-nvidia-ac8c309f"
+        "publishedDate": "2025-06-30 15:26:20",
+        "title": "Apple reportedly considers letting Anthropic and OpenAI power Siri",
+        "image": "https://images.financialmodelingprep.com/news/apple-reportedly-considers-letting-anthropic-and-openai-power-siri-20250630.jpg",
+        "site": "techcrunch.com",
+        "text": "Apple is considering using AI models from OpenAI and Anthropic to power its updated version of Siri, rather than using technology the company has built in-house, according to a report from Bloomberg on Monday.",
+        "url": "https://techcrunch.com/2025/06/30/apple-reportedly-considers-letting-anthropic-and-openai-power-siri/"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-26 09:20:00",
-        "title": "This outlook shows why investors should maintain exposure to the \u2018Magnificent Seven'",
-        "image": "https://images.financialmodelingprep.com/news/this-outlook-shows-why-investors-should-maintain-exposure-to-20250626.jpg",
-        "site": "marketwatch.com",
-        "text": "Big Tech is expected to see double the earnings growth of the S&P 500, as long as the group can maintain momentum in a key area.",
-        "url": "https://www.marketwatch.com/story/this-outlook-shows-why-investors-should-maintain-exposure-to-the-magnificent-seven-d9939fc3"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-26 08:24:47",
-        "title": "AAPL, GOOGL and MSFT Forecast \u2013 US Tech Giants Mixed in Premarket Trading",
-        "image": "https://images.financialmodelingprep.com/news/aapl-googl-and-msft-forecast-us-tech-giants-mixed-in-20250626.jpg",
-        "site": "fxempire.com",
-        "text": "The three stocks in this analysis, Apple, Google (Alphabet), and Microsoft are a bit mixed at the moment, as we look to continue the overall momentum, or lack of in some cases, going forward. However, none of them look particularly threatened.",
-        "url": "https://www.fxempire.com/forecasts/article/aapl-googl-and-msft-forecast-us-tech-giants-mixed-in-premarket-trading-1529190"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-26 06:30:02",
-        "title": "Reports of coming layoffs swirl at Microsoft as workers worry they're next",
-        "image": "https://images.financialmodelingprep.com/news/reports-of-coming-layoffs-swirl-at-microsoft-as-workers-20250626.jpg",
-        "site": "techxplore.com",
-        "text": "Microsoft employees aren't getting much time to take a breath between layoff rounds as thousands could be let go in early July, according to news reports.",
-        "url": "https://techxplore.com/news/2025-06-layoffs-swirl-microsoft-workers-theyre.html"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-26 05:57:00",
-        "title": "Who Are Nvidia's Biggest Customers?",
-        "image": "https://images.financialmodelingprep.com/news/who-are-nvidias-biggest-customers-20250626.jpg",
-        "site": "fool.com",
-        "text": "Nvidia (NVDA 4.26%) doesn't disclose its exact customer list. However, the company is the leading supplier of data center chips for artificial intelligence (AI) workloads, and we know Amazon (AMZN -0.43%), Microsoft (MSFT 0.44%), Alphabet (GOOG 2.42%) (GOOGL 2.40%), Meta Platforms, and Oracle\u00a0are some of the biggest buyers of that hardware based on their public filings.",
-        "url": "https://www.fool.com/investing/2025/06/26/who-are-nvidias-biggest-customers/"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-26 04:00:00",
-        "title": "ContractPodAi Moves to Microsoft Azure OpenAI in Foundry Models to Accelerate Next Wave of AI Innovation in Legal, Compliance, Procurement, and Regulatory Operations",
-        "image": "https://images.financialmodelingprep.com/news/contractpodai-moves-to-microsoft-azure-openai-in-foundry-models-20250626.jpg",
-        "site": "businesswire.com",
-        "text": "LONDON--(BUSINESS WIRE)--ContractPodAi moves to Microsoft Azure OpenAI in Foundry Models to accelerate AI innovation in legal, compliance, procurement, and regulatory.",
-        "url": "https://www.businesswire.com/news/home/20250626214236/en/ContractPodAi-Moves-to-Microsoft-Azure-OpenAI-in-Foundry-Models-to-Accelerate-Next-Wave-of-AI-Innovation-in-Legal-Compliance-Procurement-and-Regulatory-Operations/"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-25 22:56:39",
-        "title": "'Cyber plague': Experts warn of growing infostealer threat after billions of login details exposed",
-        "image": "https://images.financialmodelingprep.com/news/cyber-plague-experts-warn-of-growing-infostealer-threat-after-20250625.jpg",
-        "site": "cnbc.com",
-        "text": "Cybersecurity researchers have identified online datasets that contained a whopping 16 billion login credentials across multiple platforms, including Apple, Facebook and Google. While it is unclear the extent to which the exposed data still poses cybersecurity threats, the scale of the findings has raised alarm about the growing prevalence of \"infostealer\" malware.",
-        "url": "https://www.cnbc.com/2025/06/26/experts-sound-alarm-on-infostealer-malware-after-login-details-exposed.html"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-25 18:59:25",
-        "title": "Microsoft and OpenAI dueling over artificial general intelligence, The Information reports",
-        "image": "https://images.financialmodelingprep.com/news/microsoft-and-openai-dueling-over-artificial-general-intelligence-the-20250625.jpg",
+        "publishedDate": "2025-06-30 15:01:03",
+        "title": "Apple weighs using Anthropic or OpenAI to power Siri in major reversal, Bloomberg News reports",
+        "image": "https://images.financialmodelingprep.com/news/apple-weighs-using-anthropic-or-openai-to-power-siri-20250630.jpg",
         "site": "reuters.com",
-        "text": "Microsoft and OpenAI are at odds over a contractual provision related to artificial general intelligence, The Information reported on Wednesday.",
-        "url": "https://www.reuters.com/business/microsoft-openai-dueling-over-artificial-general-intelligence-information-2025-06-25/"
+        "text": "Apple is weighing using artificial intelligence technology from Anthropic or OpenAI to power a new version of Siri, instead of its own in-house models, Bloomberg News reported on Monday, citing people familiar with the discussions.",
+        "url": "https://www.reuters.com/business/apple-weighs-using-anthropic-or-openai-power-siri-major-reversal-bloomberg-news-2025-06-30/"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-25 18:54:00",
-        "title": "OpenAI, Microsoft Rift Hinges on How Smart AI Can Get",
-        "image": "https://images.financialmodelingprep.com/news/openai-microsoft-rift-hinges-on-how-smart-ai-can-20250625.jpg",
-        "site": "wsj.com",
-        "text": "Silicon Valley is at odds over whether AI can reach and exceed humanlike intelligence, a milestone with major implications for the startup and technology giant's partnership.",
-        "url": "https://www.wsj.com/tech/ai/openai-microsoft-rift-hinges-on-how-smart-ai-can-get-82566509"
+        "publishedDate": "2025-06-30 14:39:39",
+        "title": "Microsoft Has Its ChatGPT Moment With The Mu Language Model",
+        "image": "https://images.financialmodelingprep.com/news/microsoft-has-its-chatgpt-moment-with-the-mu-language-20250630.jpg",
+        "site": "seekingalpha.com",
+        "text": "Microsoft Corporation's Mu enables private, on-device AI inference, addressing enterprise privacy concerns and unlocking new monetization opportunities for Microsoft. Microsoft's AI strategy, including Mu and the Model Context Protocol, positions MSFT Windows as an \"AI-native\" OS and fosters a developer ecosystem. While Mu is early-stage and risks remain, its integration signals foundational change, enhancing Microsoft's defensibility and capital efficiency in AI.",
+        "url": "https://seekingalpha.com/article/4798401-microsoft-has-its-chatgpt-moment-with-the-mu-language-model"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-25 17:30:00",
-        "title": "Microsoft, Wisconsin Economic Development Corporation, University of Wisconsin-Milwaukee and TitletownTech officially open AI Co-Innovation Lab to accelerate manufacturing innovation",
-        "image": "https://images.financialmodelingprep.com/news/microsoft-wisconsin-economic-development-corporation-university-of-wisconsinmilwaukee-and-20250625.jpg",
-        "site": "prnewswire.com",
-        "text": "MILWAUKEE , June 25, 2025 /PRNewswire/ -- Microsoft Corp., in collaboration with the Wisconsin Economic Development Corporation (WEDC), the University of Wisconsin-Milwaukee (UWM) and TitletownTech announced on Wednesday the opening of an AI Co-Innovation Lab on the UWM campus. This marks Microsoft's first AI Co-Innovation Lab with a dedicated focus on manufacturing innovation.",
-        "url": "https://www.prnewswire.com/news-releases/microsoft-wisconsin-economic-development-corporation-university-of-wisconsin-milwaukee-and-titletowntech-officially-open-ai-co-innovation-lab-to-accelerate-manufacturing-innovation-302491309.html"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-25 16:04:01",
-        "title": "Dan Ives: Microsoft could be a $5 trillion company in 18 months",
-        "image": "https://images.financialmodelingprep.com/news/dan-ives-microsoft-could-be-a-5-trillion-company-20250625.jpg",
-        "site": "youtube.com",
-        "text": "Dan Ives, Wedbush Securities global head of technology research, joins 'Closing Bell' to discuss why Ives is more bullish on Microsoft.",
-        "url": "https://www.youtube.com/watch?v=stLyWXLj86U"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-25 15:19:13",
-        "title": "Microsoft May Be Pulling Ahead in the AI Race. Is It a Breakout Buy?",
-        "image": "https://images.financialmodelingprep.com/news/microsoft-may-be-pulling-ahead-in-the-ai-race-20250625.jpg",
-        "site": "247wallst.com",
-        "text": "Microsoft (NASDAQ:MSFT) hasn't just pulled ahead in the great market cap race, it also seems to be pulling ahead in the so-called AI race, with a strategy that may soon pay big dividends as various use cases become more monetized while the enterprise software behemoth looks to further develop its own AI muscles beyond the brawn provided by OpenAI.",
-        "url": "https://247wallst.com/investing/2025/06/25/microsoft-may-be-pulling-ahead-in-the-ai-race-is-it-a-breakout-buy/"
-    },
-    {
-        "symbol": "MSFT",
-        "publishedDate": "2025-06-25 14:03:34",
-        "title": "Live Nasdaq Composite: Markets Eye Fresh Highs Amid Cooling Mideast Tensions",
-        "image": "https://images.financialmodelingprep.com/news/live-nasdaq-composite-markets-eye-fresh-highs-amid-cooling-20250625.jpg",
+        "publishedDate": "2025-06-30 13:37:59",
+        "title": "OpenAI CEO Sam Altman Predicts AI\u2019s \u2018Make or Break\u2019 Moment is Almost Here",
+        "image": "https://images.financialmodelingprep.com/news/openai-ceo-sam-altman-predicts-ais-make-or-break-20250630.jpg",
         "site": "https://247wallst.com",
-        "text": "Live Updates Live Coverage Updates appear automatically as they are published. Wall Street Is Bullish on NOW and STLA 11:31 am by Gerelyn Terzo Wall Street analysts are active today. Here are some additional analyst calls: DA Davidson started coverage of AI-powered software platform ServiceNow (NYSE: NOW) with a &#8220;buy&#8221; rating and $1,150 price target, calling its business &#8220;best of breed.&#8221; Jefferies analysts upgraded shares of Netherlands-based automaker Stellantis (NYSE: STLA) to a &#8220;buy&#8221; rating from hold as the company&#8217;s restructuring efforts pay off. The stock is rising 2.9% today. Stocks remain mixed, with the Nasdaq Composite now up 0.35%. Rate Cut Horizon 9:48 am by Gerelyn Terzo While Fed Chairman Jerome Powell has been avoiding interest rate cuts at all costs in 2025, the pendulum could swing in the opposite direction next year. At least that is what Morgan Stanley experts believe, predicting that the Fed will implement a whopping six rate cuts in 2026. The Nasdaq Composite is up 0.64%. This article will be updated throughout the day, so check back often for more daily updates. Now that a ceasefire between Iran and Israel appears to be more stable, the markets are breathing a sigh of relief &#8211; at least for now. Stocks are mixed but leaning toward optimism, with the Nasdaq Composite and S&amp;P 500 advancing slightly while the Dow Jones Industrial Average trails behind. The broader markets are inching ever closer to clinching fresh all-time highs, with the S&amp;P 500 now approaching a new record. Yesterday, the tech-focused Nasdaq 100 index set a new record, with data analytics software stock Palantir Technologies&#8217; (Nasdaq: PLTR) 90% year-to-date advance serving as a tailwind. With record highs within sight, Wall Street bulls are circling. Analyst firm BMO is the latest Wall Street firm to increase its year-end S&amp;P 500 target. BMO&#8217;s Chief Investment Strategist Brian Belski raised the firm&#8217;s S&amp;P 500 2025 forecast to 6,700, up from 6,100 previously. Here\u2019s a look at the performance as of morning trading: Dow Jones Industrial Average: Down 50.23 (-0.12%) Nasdaq Composite: Up 119.15 (+0.60%) S&amp;P 500: Up 11.02 (+0.18%) Wall Street Moves Bernstein is bullish on digital asset exchange Coinbase (Nasdaq: COIN), calling this crypto play &#8220;misunderstood&#8221; and implying there is room for 50% gains in the share price. Loop Capital analysts raised their price target on Nvidia (Nasdaq: NVDA) by $75 to $250 while maintaining a &#8220;buy&#8221; rating on the leading AI stock. This move makes Loop Capital the most bullish Wall Street firm on Nvidia stock in terms of the price target. Microsoft (Nasdaq: MSFT) is also getting some bullish attention. Wells Fargo increased its price target on MSFT shares by $20 to $585 with an &#8220;overweight&#8221; rating still attached. FedEx (NYSE: FDX) stock is losing 5.2% on the day after revealing a massive $170 million impact related to tariffs. Tesla (Nasdaq: TSLA) is down 5% on heightened competition out of China for EVs. The post Live Nasdaq Composite: Markets Eye Fresh Highs Amid Cooling Mideast Tensions appeared first on 24/7 Wall St..",
-        "url": "https://247wallst.com/investing/2025/06/25/live-nasdaq-composite-markets-eye-fresh-highs-amid-cooling-mideast-tensions/"
+        "text": "Apple (Nasdaq: AAPL) researchers recently released a paper named &#8216;Illusions of Thinking&#8216; that casts new doubts on the capabilities of &#8216;reasoning&#8217; models that are seeing tens of billions of dollars of research and development in the AI space. In the segment below, 24/7 Wall St. Analyst Eric Bleeker breaks down the implications of Apple&#8217;s newest paper. Bleeker says that investors will want to key in on whether AI can make &#8216;novel discoveries&#8217; in 2026. OpenAI CEO Sam Altman has predicted that leading AI models will begin making these discoveries in 2026. If that happens, AI spending will continue to race full speed ahead. If 2026 passes without novel discoveries, then Apple&#8217;s criticisms of reasoning models will look more compelling. Key Points Apple (NASDAQ: AAPL) is taking a contrarian stance in the AI space, downplaying reasoning model capabilities in a recent research paper and showing reduced AI emphasis at WWDC, contrasting sharply with peers&#8217; aggressive AI investments. While OpenAI, backed by Microsoft (NASDAQ: MSFT), is pushing toward novel AI discoveries by 2026 with infrastructure like Stargate, Apple appears culturally and strategically hesitant to embrace foundational AI advancements. Despite skepticism from Apple\u2019s research, usage data and capabilities like DeepMind&#8217;s AlphaFold show current AI can already dramatically accelerate scientific discovery, offering substantial near-term economic value. If you&#8217;re looking for more AI investing ideas, make sure to listen to the latest episode of 24/7 Wall St.&#8217;s AI Investor Podcast! Are you ahead, or behind on retirement? SmartAsset&#8217;s free tool can match you with a financial advisor in minutes to help you answer that today. Each advisor has been carefully vetted, and must act in your best interests. Don&#8217;t waste another minute; get started by clicking here.(Sponsor) Watch the Video https://videos.247wallst.com/247wallst.com/2025/06/3.1-OpenAI-CEO-Sam-Altman-Believes-AIs-Make-or-Break-Moment-is-Almost-Here.mp4 Key Points In This Video Apple is the one Magnificent 7 company not actively involved in the race to build massive models. Instead its relying on partnerships with companies like OpenAI. At 24/7 Wall St., we believe the release of reasoning models &#8211; roughly corresponding to the release of o3 in December last year \u2026 Is the next step-change in AI model capabilities. However, a recent paper from Apple researchers casts doubt on the overall capabilities of reasoning models. The paper &#8211; named &#8216;Illusions of Thinking&#8217; &#8211; detailed how reasoning models solve a series of puzzles. The paper&#8217;s findings were essentially that reasoning models capabilities are more limited than believed &#8211; they&#8217;re just advanced pattern matching. Our take: we don\u2019t find the paper especially compelling. We won\u2019t get into too many details, but AI researchers we follow have poked some pretty sizable holes into how the study was conducted and its overall conclusions. Here&#8217;s what we think is important to watch if you&#8217;re concerend about Apple&#8217;s recent paper. One of the biggest criticisms of AI has been: Where are the novel discoveries? That is to say, while AI has contributed to some major discoveries like protein-folding, there have been no major discoveries directly made by leading AI models. Sam Altman, CEO of OpenAI, recently published a blog that\u2019s worth reading. It&#8217;s named &#8216;The Gentle Singularity.&#8217; In it, he lays out a timeline we can come back to and hold him accountable to. 2025: Rise of Agents 2026: Novel insights from AI 2027: Robots that can do tasks in the real world So, essentially he\u2019s dropping the gauntlet that GPT5 will be powerful enough for these novel discoveries\u2026 If that\u2019s the case, the upside for AI essentially becomes infinite; it is the driver for economic progress for the remainder of our lives. If it\u2019s wrong\u2026 Total spend on AI is likely too high at current rates. The AI Investor Podcast Is Your Source What Could Become Technology&#8217;s Biggest Trend Ever This discussion comes from 24/7 Wall St.&#8217;s AI Investor Podcast. The podcast covers the biggest developments in AI and how you can build a portfolio filled with the highest-upside stocks in the space. You can listen to our most recent episode on YouTube or leading podcast apps like Apple Podcasts or Spotify. Transcript: [00:00:05] Austin Smith: And now, you know, a, a counterpoint to that is I wanna talk about this Apple Illusions of thinking paper, because Apple is one of the largest tech companies that, you know what I mean? Like, like Google (NASDAQ: GOOG) and Microsoft was really hot on AI. But in their most recent, uh, worldwide developer conference, there was way less AI, way less Apple intelligence than in the prior release. [00:00:24] Austin Smith: So on one hand, we&#8217;re seeing Apple sort of standalone here, and some of the, the steam is coming out of their own AI enthusiasm and they&#8217;re releasing this illusions of thinking paper that sort of puts a little bit of cold water on the AI narrative. So, but, but everything else we&#8217;re seeing is an increase in demand and compute and inference from everybody else in Oracle (NYSE: ORCL) and Microsoft and Google. [00:00:45] Austin Smith: So. What is going on with Apple? Are they, you know, is this a cultural change? Is this, is this something? Are they seeing something other people don&#8217;t? Why does Apple sort of stand alone here in this super major AI space? [00:00:58] Eric Bleeker: Yeah. Apple&#8217;s such an interesting company, right? Because everyone else is spending tens of billions of dollars on CapEx and they&#8217;ve kind of not played that game. [00:01:07] Eric Bleeker: They can do that in part because they have unique distribution right at the start of smartphones. You have said their greatest weakness is. Something like search all these Google services, they, they don&#8217;t control that and they&#8217;re beholding, but the end outcome was they end up charging Google 20 or $30 billion per year in pure profits to become the default search engine. [00:01:29] Eric Bleeker: So them being that initial point of distribution as the operating system for all consumer devices allows them to play a little bit of a different game. But it&#8217;s also kind of in their best interests. To kind of talk down some of the areas that they&#8217;re not competing in, which is a bit what this paper did. [00:01:50] Eric Bleeker: It comes from, um, apple researchers and basically we&#8217;ve talked about along this show, our belief is that in December of last year, the birth of new powerful reasoning models, which really began when oh three was released on December 20th, was the next step change in AI demand. And what Apple&#8217;s researchers came out and said is that they believe that these reasoning models that are coming out through a series of puzzles that they tried having them solve, that they put in the paper, basically had just a lot less capability than people believed. [00:02:28] Eric Bleeker: Essentially. They&#8217;re just much better at pattern matching, uh, than people give them credit for. So this Austin, this got a lot of attention, right? Because it&#8217;s potentially saying it&#8217;s, it&#8217;s another. A potential piece of evidence that we&#8217;re in a bubble, that AI is just going to hit a wall, where when you ask it to take that next step, the next step being discovering novel discoveries. [00:02:55] Eric Bleeker: Mm-hmm. You know, asking AI to start doing things like finding cures for diseases. It&#8217;s not going to be able to make that jump. And if that is the case, that would be tremendously bad for that future of outlook and all the spending that&#8217;s happening right now. Right. So my take on this, and again, I am not an AI researcher. [00:03:16] Eric Bleeker: My main job is to basically find who I believe are the smartest minds and, and people that have great track records on this. I. And evaluate who I think is the most accurate. And, and I don&#8217;t find the paper especially compelling. I, I won&#8217;t get into too many details, but a lot of people have poked some pretty sizable holes into how this study was conducted. [00:03:39] Eric Bleeker: But I, I do wanna point out Austin, you know, of the other big storylines that&#8217;s, you know, maybe on the fringes that if, if you&#8217;re investing in ai you don&#8217;t see, was Sam Altman, who&#8217;s the CEO of Open AI. He released a blog this year, uh, or. This week, I should say, um, just about his thoughts on AI. It, it&#8217;s named the gentle Singularity. [00:04:01] Eric Bleeker: You could search that, you could search his blog and you could find it, but in layman&#8217;s terms, he&#8217;s, he&#8217;s making a lot of predictions you can hold him accountable to and in his belief. 2025. The story is the rise of agents. That&#8217;s something we agree with. We&#8217;ve been saying since last year, you know, mid last year, we&#8217;ve always said we believe the narrative this year, especially in the back half, would be the rise of agents. [00:04:27] Eric Bleeker: He believes 2026 is going to be the birth of novel insights from AI, and 2027 is robotics that can change the real world. So you know this, this lines up Austin, right? With a lot of storylines we&#8217;re talking about. But he is essentially dropping the gauntlet that, as I mentioned earlier, OpenAI is waiting for Stargate to become operational, uh, to basically train their next version, uh, GPT five, to have the capability to do that. [00:04:59] Eric Bleeker: And once that&#8217;s happened, he believes those novel discoveries will start becoming a storyline next year. So that becomes one of the things that we will be actively tracking on this podcast that. If you start seeing novel discoveries from AI, we are on pace. And frankly, if AI starts making meaningful novel discoveries, that is the strongest validation yet that it becomes the main economic driver for the rest of our lives. [00:05:30] Eric Bleeker: Mm-hmm. And if that is the case and, and you&#8217;re not actively investing in this, good luck to you because that, that will be a little bit of a rubber meets the road moment. We&#8217;re gonna be watching out for. [00:05:42] Austin Smith: Right. And you know, to, to anybody who&#8217;s listening to that and saying, oh, well maybe I&#8217;ll wait until AI has proven in the, the novel discovery framework before I become an investor. [00:05:51] Austin Smith: I think that would be a mistake as well, because that&#8217;s not to say that the current versions of AI and LLMs don&#8217;t have incredible economic forces and tailwinds behind them. You talked about medicine discovery, uh, famously alpha fold, you know, detected protein foldings and predicted 3D structures of proteins, which is a very complicated, uh, thing to do. [00:06:10] Austin Smith: And it didn&#8217;t necessarily uncover new breakthroughs per se, but it completely supercharged the discovery of these, uh, folding structures that would&#8217;ve been discovered just over a much longer timeframe. So it pulled forward all of those discoveries faster. Now, that might not necessarily have been novel. [00:06:26] Austin Smith: It was applying techniques that, as I understand it, certainly not an AI researcher, but was applying techniques that. We already had and knew, but just completely supercharged them and allowed us to make discoveries earlier. You know, when I read the, the, or tried to read, I should say, the illusions of Thinking paper by Apple, it, it sounded a little bit to me like a case. [00:06:45] Austin Smith: Maybe it&#8217;s just a case of someone coming from sour grapes a little bit like I. You know, Apple&#8217;s always been a bit of a taste maker company and designing the thing you, you didn&#8217;t know you needed and then you can&#8217;t live without. And they&#8217;ve been uniquely good at that, perhaps the best of all time. Um, but technologically speaking, a reasoning model just gives up a lot of that to, to the model. [00:07:02] Austin Smith: And it might be just culturally antithetical to, to what Apple is built on as a company. So, you know, I&#8217;m, I you gotta pay attention to everything that happens in this space. Apple&#8217;s incredibly gifted at what they do. Um, but this, this didn&#8217;t change my thinking about the potential of, of what we&#8217;re seeing. [00:07:17] Eric Bleeker: And I do wanna double click on one point you made there that you know, you can always say, I will just wait for this. Next, threat or overhang to resolve before I invest. That&#8217;s why it&#8217;s so important to go through the cycles that as new trends happen that you&#8217;re able to see in real time. [00:07:35] Eric Bleeker: There is always something new that says, there&#8217;s a reason I shouldn&#8217;t invest in this today. So if you&#8217;re waiting for one threat to go. There will be another. Nothing is an absolute slam dunk. Last week, Austin, we talked about the best time on a risk adjusted basis to buy Apple was six years after mobile started. [00:07:52] Eric Bleeker: Mm-hmm. Um, the trough of disillusionment for the internet itself came eight years after it started. There&#8217;s always going to be some new threat that, you know, unless you followed one of these cycles, to truly appreciate that you&#8217;re never going to make money investing in a perfectly rosy picture. It&#8217;s just really hard to understand that that&#8217;s part of why we wanted to start this podcast was to give that record of investing throughout the a i Age. [00:08:22] Eric Bleeker: &#8217;cause at some point in retrospect, it&#8217;ll be, I believe it&#8217;ll be of course. Why didn&#8217;t you invest in that AI was obvious, right? And it&#8217;s not obvious. And we&#8217;ve broken down all the areas where we had to be incredibly. Counter to the dominant narratives, you know, you&#8217;ll be able to go back around When we did our deep seek episodes, where we called it before it happened, where we broke it down after, and we have been knocking down a lot of these, you know, bear cases. [00:08:53] Eric Bleeker: It&#8217;s, it&#8217;s not because we are blind cheerleaders for AI. Far from it, you know, we are people who want to make money and the only thing that makes you money in the long run is what happens in reality. But you know, again, we, we have believed that this story&#8217;s happening and, and we have gone through many of these threats in the front half of the year to have a show today that is. [00:09:19] Eric Bleeker: Largely just focused on acceleration and bullishness, which couldn&#8217;t be any different from what we were seeing five, six months ago.\u200b The post OpenAI CEO Sam Altman Predicts AI&#8217;s &#8216;Make or Break&#8217; Moment is Almost Here appeared first on 24/7 Wall St..",
+        "url": "https://247wallst.com/investing/2025/06/28/openai-ceo-sam-altman-predicts-ais-make-or-break-moment-is-almost-here/"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-25 13:20:57",
-        "title": "Microsoft plans 'substantial' job cuts across Xbox division",
-        "image": "https://images.financialmodelingprep.com/news/microsoft-plans-substantial-job-cuts-across-xbox-division-20250625.jpg",
-        "site": "foxbusiness.com",
-        "text": "Xbox managers expect substantial job cuts across the gaming division next week as Microsoft continues streamlining processes following its $69 billion Activision Blizzard acquisition.",
-        "url": "https://www.foxbusiness.com/economy/microsoft-plans-substantial-job-cuts-across-xbox-division"
+        "publishedDate": "2025-06-30 13:37:59",
+        "title": "The #1 Reason AI Stocks Are Soaring Again in June",
+        "image": "https://images.financialmodelingprep.com/news/the-1-reason-ai-stocks-are-soaring-again-in-20250630.jpg",
+        "site": "https://247wallst.com",
+        "text": "AI stocks have been on a ferocious rally in June. NVIDIA (Nasdaq: NVDA) is up 13% in the past month and currently sits at an all-time high, trading for $157.75 per share. In the segment below, 24/7 Wall St. Analyst Eric Bleeker discusses the big news that&#8217;s been driving AI stocks north. Recent news from Oracle (Nasdaq: ORCL) and OpenAI partnering with Google are all bullish and point toward continuing rabid demand in the AI space. Key Points OpenAI&#8217;s growing compute needs have led it to form new partnerships beyond Microsoft (NASDAQ: MSFT), including with Google (NASDAQ: GOOGL), signaling unexpectedly strong infrastructure demand. Oracle (NYSE: ORCL) reported a surge in AI-related revenues, with infrastructure growth forecasted to accelerate from 50% to 70% and backlog (RPO) expected to double, reinforcing signs of industry-wide AI momentum. Despite earlier fears of a pullback in AI spending post-Deep Seek, high model usage retention and ongoing training needs suggest accelerating demand into 2026, contrary to prior Wall Street expectations. Are you ahead, or behind on retirement? SmartAsset&#8217;s free tool can match you with a financial advisor in minutes to help you answer that today. Each advisor has been carefully vetted, and must act in your best interests. Don&#8217;t waste another minute; get started by clicking here.(Sponsor) Watch the Segment on AI Stocks Soaring in June https://videos.247wallst.com/247wallst.com/2025/06/2-The-1-Reason-AI-Stocks-Are-Soaring-Again-in-June.mp4 Notes on This Segment In the early months of the year, many AI stocks sold off on fears that Microsoft (Nasdaq: MSFT) was backing out of data center contracts. Bears pointed to this being evidence that investment in AI was unsustainable and would soon crater. We repeatedly poured cold water on this story on the AI Investor Podcast. First: Microsoft had publicly broken up with OpenAI &#8211; its main AI customer. Demand they had previously booked was simply moving to Oracle &#8211; the company behind OpenAI\u2019s \u2018Stargate\u2019 Project. Second: Despite all the talk of pulling back on spending, Microsoft itself was still projecting growth in its capital spending next year. Fast forward to today: Oracle reported earnings recently and saw its stock soar. The headline: The company projects that growth rates in cloud infrastructure will grow from 50% this year to 70% next year. And the company&#8217;s RPO (think of this as backlog) is increasing at over a 100% rate. And beyond Oracle, news has recently broken that OpenAI will also be partnering with Google for additional demand. When it comes to AI, there are two primary costs for a company like OpenAI: Training models \u2018Inference\u2019 &#8211; or running them Training: After DeepSeek, many believed that training costs would plummet. Yet, the opposite is actually happening. For example, OpenAI can&#8217;t move forward with its next-generation GPT5 model until it gets more compute capacity. And Inference demand has been absolutely exploding this year. OpenAI itself is now at a run rate of more than $10 billion in annual revenue and continues to grow fast. The company is seeing some of the highest retention among any consumer applications. The reason for that incredible retention: people are using the product! The big question for 2026 that will determine how most AI stocks perform\u2026 If OpenAI is racing to find more computing capacity and might be stalled until Stargate comes online That means all the other companies building frontier models are likely facing similar constraints. If that&#8217;s the case, 2026 will see unexpectedly high growth. Stocks across the AI space are are north as projections for AI spending in 2026 and beyond continue to increase. Don&#8217;t Miss an Episode of the AI Investor Podcast This segment was from our AI Investor Podcast, where we discuss the biggest news in artificial intelligence and what it means for the stocks in your portfolio. You can watch recent episodes on our YouTube channel or on any major podcast service. Transcript: [00:00:05] Austin Smith: Open AI has an insatiable appetite for compute. Uh, they famously paired up with Microsoft in their early days. Now they&#8217;re pairing up with anyone and everyone who will give them compute, including Google (NASDAQ: GOOG). What is going on and what does this say about AI demand? [00:00:20] Eric Bleeker: Yeah. One of the key storylines we covered at the beginning of the year was there is a major sell off in AI stocks because of DeepSeek. There&#8217;s geopolitical reasons, and a third major reason was reports about Microsoft basically scaling back their ambitions. [00:00:34] Eric Bleeker: Now, we had said that we weren&#8217;t as concerned with this because number one, Microsoft very publicly had broken up with Open AI. So if you&#8217;re looking at Microsoft decreasing spending. Well, if they had a breakup with their biggest partner, and you need to watch for where demand was headed with, you know, its new partnerships. [00:00:52] Eric Bleeker: And in spite of all that, despite Microsoft losing its biggest and best customer, they were still projecting growth next year on their capital expenditures. So let&#8217;s fast forward today. Oracle reported last night, Wednesday night. The stocks up 8%. The headline is they&#8217;re predicting a massive acceleration. [00:01:13] Eric Bleeker: AI revenues next year, their growth rate for uh, infrastructure is supposed to go from 50 to 70%. And their RPO, which you could think of it like a backlog that&#8217;s projected to grow another a hundred percent. And then you have the news that Google. Is going to work with open AI, you know, giving them one more, uh, source for this compute demand. [00:01:37] Eric Bleeker: So, you know, Austin, I think the big picture is there are two main costs when we&#8217;re looking at all these companies in the data center chain, whether it&#8217;s Nvidia (NASDAQ: NVDA) or up to all these optic plays that we&#8217;ve talked about. One cost is training, the other cost is actually running the models themselves. So the training costs. [00:02:00] Eric Bleeker: The fact is a lot of the belief post deep seek was that training simply too expensive. And we&#8217;re going to see companies pull back on this. We&#8217;re seeing the opposite right now, which is open ai. They cannot move forward with their next major generation, GPT5 until Stargate is online. And then they have a second wave, which is inference Austin, right now, open ai. [00:02:28] Eric Bleeker: They are seeing 90% retention after one month, 80% retention after six months. It&#8217;s not just the fastest grown consumer product ever. It&#8217;s also the most sticky. You know, that&#8217;s the best in breed companies in terms of retention would kill for 90% after a month would kill for 80%. So there&#8217;s huge usage. And then there&#8217;s the side that this additional training is also needed. [00:02:55] Eric Bleeker: So, you know, I would say Austin. The big bullet point here is just we&#8217;re beginning to see a storyline of acceleration into 2026, far beyond what Wall Street&#8217;s been estimating months ago, let alone today. Because if Open AI&#8217;s waiting for more capacity to do this pre-training, people thought was going to moderate. [00:03:16] Eric Bleeker: All the other big companies are going to have to follow that same game plan. And number two, the consumer usage of AI is exploding, which is causing storylines like open AI, going to Google. So we&#8217;ll cover this more and more, but this is, this is the main theme of today&#8217;s show that. When we started the show back in 2024, we said, well, we&#8217;re not gonna see the slowdown people expect in 2025, but that&#8217;s gotten pushed into 2026, and that&#8217;s what you worry about. [00:03:48] Eric Bleeker: And now we&#8217;re starting to see 2026, not just be a period of moderation or fears of worst case scenario. There&#8217;s a lot of talk of acceleration, which might be crazy to people watching because. You know what? Everything is wrapped in fear. We had this deep seek moment. What if AI stops and all of a sudden that narrative, it&#8217;s really changing when you see what people are saying. [00:04:13] Eric Bleeker: You see the actions of these companies.\u200b The post The #1 Reason AI Stocks Are Soaring Again in June appeared first on 24/7 Wall St..",
+        "url": "https://247wallst.com/investing/2025/06/29/the-1-reason-ai-stocks-are-soaring-again-in-june/"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-25 12:32:51",
-        "title": "Altman and Nadella discuss future of OpenAI-Microsoft partnership in \u2018super nice call'",
-        "image": "https://images.financialmodelingprep.com/news/altman-and-nadella-discuss-future-of-openaimicrosoft-partnership-in-20250625.jpg",
-        "site": "proactiveinvestors.com",
-        "text": "OpenAI\u00a0CEO Sam Altman said he and Microsoft Corp (NASDAQ:MSFT)\u00a0CEO Satya Nadella had a \u201csuper nice call\u201d on Monday to discuss the future of Microsoft's multi-billion-dollar investment in OpenAI. Speaking on a New York Times podcast, Altman described the relationship as \u201creally wonderfully good\u201d and said the collaboration has been beneficial for both sides.",
-        "url": "https://www.proactiveinvestors.com/companies/news/1073627"
+        "publishedDate": "2025-06-30 11:15:15",
+        "title": "Alphabet, Amazon, Meta And Microsoft Are Spending Billions To Compete",
+        "image": "https://images.financialmodelingprep.com/news/alphabet-amazon-meta-and-microsoft-are-spending-billions-to-compete-20250630.jpg",
+        "site": "forbes.com",
+        "text": "Technology is the least monopolized sector within the U.S. economy. Skeptical?",
+        "url": "https://www.forbes.com/sites/johntamny/2025/06/30/alphabet-amazon-meta-and-microsoft-are-spending-billions-to-compete/"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-25 12:01:06",
-        "title": "Microsoft sued by authors over use of books in AI training",
-        "image": "https://images.financialmodelingprep.com/news/microsoft-sued-by-authors-over-use-of-books-in-20250625.jpg",
-        "site": "reuters.com",
-        "text": "Microsoft has been hit with a lawsuit by a group of authors who claim the company used their books without permission to train its Megatron artificial intelligence model.",
-        "url": "https://www.reuters.com/sustainability/boards-policy-regulation/microsoft-sued-by-authors-over-use-books-ai-training-2025-06-25/"
+        "publishedDate": "2025-06-30 10:26:00",
+        "title": "West Wits secures ZAR 875M facility to launch Qala Shallows development",
+        "image": "https://images.financialmodelingprep.com/news/west-wits-secures-zar-875m-facility-to-launch-qala-20250630.jpeg",
+        "site": "https://www.proactiveinvestors.com",
+        "text": "West Wits Mining Ltd (ASX:WWI, OTCQB:WMWWF) will bank ZAR 875 million (approximately US$50M, AU$76.5M) after signing definitive agreements for a senior syndicated loan facility to fund the Qala Shallows Gold Project in South Africa. This is a significant step in the development of the first phase of the Witwatersrand Basin Project and coincides with the delivery of a 7.5-tonne underground Load-Haul-Dump (LHD) unit to the Qala Shallows site, marking the start of on-the-ground mine development works. The development is expected to generate over 1,000 direct jobs and serve as a catalyst for regional development over the mine\u2019s 18-year life. \u201cThe signing of the legal agreements marks a transformative moment for West Wits. Securing this facility is the result of years of focused effort and a strong endorsement of the Qala Shallows Project by top tier South African financial institutions,\u201d West Wits CEO Rudi Deysel said. \u201cSeeing our first LHD unit arrive on site is incredibly exciting. It is a tangible symbol of progress and the beginning of a new chapter as we bring the project to life.\u201d West Wits has executed agreements for a senior syndicated loan facility with the Industrial Development Corporation of South Africa and Absa Bank Ltd, through its Corporate and Investment Banking Division. The facility, which will fund approximately 55% of the Qala Shallows development costs, has a 24-month drawdown period and a 36-month repayment term. Interest is linked to the Johannesburg Interbank Average Rate (JIBAR), and 100% of mandatory hedging will be covered by put options, allowing upside exposure to gold prices. The loan will fund development, construction, commissioning and initial operations at Qala Shallows. The remaining 45% of funding will be sourced from equity and early operational revenue. Zwano Nxumalo, project financier at Absa Corporate and Investment Banking, said: \u201cWe\u2019re proud to support West Wits on the Qala Shallows Gold Project \u2014 a development that will drive local job creation, economic growth, and sustainable mining in the Witwatersrand Basin. This facility reflects our continued commitment to enabling impactful, long-term investments in South Africa\u2019s resources sector.\u201d Following an A$14 million equity raise, West Wits is pressing ahead with mine development activities at Qala, after an increase in ownership of the broader Witwatersrand Basin Project (WBP) to 74%. LHD Unit loaded for delivery to Qala Shallows marking the start of mobilisation as West Wits moves into active development. Key work streams include the buy-back of minority interests in its South African subsidiary, an optimised Definitive Feasibility Study (DFS) reflecting stronger gold prices and improved economics, mobilisation for ore extraction at Qala Shallows, and progress on its long-term Project 200 expansion strategy. \u201cIt is with great excitement that we kick-off the Qala Shallows Project. The West Wits team undertook extensive preparatory work to ensure that the project will be delivered as a safe, productive and within-budget operation. Service supplier agreements have now been executed with initial orders placed and the first piece of equipment to be delivered this week,\u201d Deysel said. \u201cAs West Wits Mining advances to becoming a gold producer, we will continue to focus on ways to realise the potential of the stunning Witwatersrand Basin Project to further grow the business we are starting.\u201d Facility proceeds are strictly applied to Qala Shallows project development. US President Donald Trump has announced the immediate termination of all trade talks with Canada, ending months-long negotiations between the two countries following Canada\u2019s announcement of a new digital services tax (DST). The DST targets large foreign and domestic digital companies, including major US tech firms such as Meta, Apple, Google, Amazon, and Microsoft. Set to take effect retroactively from 2022, starting on Monday, the DST imposes a 3% tax on large digital companies' revenues from online advertising, social media, online marketplaces, and user data licensing in Canada. Trump posted on his social media platform Truth Social that due to this digital services tax, the US will end all trade discussions with Canada effective immediately and plans to inform Canada within the next week about the tariff rates Canada will be required to pay for conducting business with the US. He accused Canada of copying the European Union, which has implemented a similar tax, and described it as \u201ca direct and blatant attack on our country.\u201d \u201cBased on this egregious Tax, we are hereby terminating ALL discussions on Trade with Canada, effective immediately,\u201d Trump wrote in a post on Truth Social. \u201cWe will let Canada know the Tariff that they will be paying to do business with the United States of America within the next seven day period.\u201d Canadian Prime Minister Mark Carney\u2019s office did not immediately comment on Trump\u2019s remarks.",
+        "url": "https://www.proactiveinvestors.com/companies/news/1073803/west-wits-secures-zar-875m-facility-to-launch-qala-shallows-development-1073803.html"
     },
     {
         "symbol": "MSFT",
-        "publishedDate": "2025-06-25 11:02:28",
-        "title": "Microsoft's AI momentum fuels $600 price target as enterprise demand surges",
-        "image": "https://images.financialmodelingprep.com/news/microsofts-ai-momentum-fuels-600-price-target-as-enterprise-20250625.jpg",
-        "site": "proactiveinvestors.co.uk",
-        "text": "Wedbush has raised its price target on Microsoft Corp (NASDAQ:MSFT)\u00a0to $600, up from $515, citing a surge in enterprise demand for artificial intelligence services through its Azure cloud platform and Copilot software suite. The broker, which maintains its \"outperform\" rating and includes the company on its Best Ideas list, described the current environment as Microsoft's \"shining moment\".",
-        "url": "https://www.proactiveinvestors.co.uk/companies/news/1073607"
+        "publishedDate": "2025-06-30 08:18:06",
+        "title": "Durable Goods Orders Jump 16.5%\u2014Top 3 Stocks to Own Now",
+        "image": "https://images.financialmodelingprep.com/news/durable-goods-orders-jump-165top-3-stocks-to-own-20250630.jpg",
+        "site": "marketbeat.com",
+        "text": "Investors got a nice surprise on June 26 from the latest reading on durable goods orders. The number showed a whopping increase of 16.5%.",
+        "url": "https://www.marketbeat.com/stock-ideas/durable-goods-orders-jump-165top-3-stocks-to-own-now/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-30 05:15:00",
+        "title": "Will This \"Magnificent Seven\" Stock Overtake Microsoft and Nvidia As the Largest Company in the World By 2030?",
+        "image": "https://images.financialmodelingprep.com/news/will-this-magnificent-seven-stock-overtake-microsoft-and-nvidia-20250630.jpg",
+        "site": "fool.com",
+        "text": "While Nvidia and Microsoft are duking it out to see which company will maintain its position as the largest in the world by market cap, another competitor is lurking in the background: Amazon (AMZN 2.66%).",
+        "url": "https://www.fool.com/investing/2025/06/30/will-this-magnificent-seven-stock-overtake-microso/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-29 11:30:00",
+        "title": "The Market May Be About To Get Turned Upside Down",
+        "image": "https://images.financialmodelingprep.com/news/the-market-may-be-about-to-get-turned-upside-20250629.jpg",
+        "site": "seekingalpha.com",
+        "text": "Momentum investing is tempting, but value investing in overlooked sectors offers superior long-term returns if you remain disciplined and patient. We share why we think the market may be about to get turned upside down. We also share some of our top picks of the moment.",
+        "url": "https://seekingalpha.com/article/4798058-market-may-get-turned-upside-down"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-29 06:30:00",
+        "title": "10 Artificial Intelligence (AI) Companies to Buy Now and Hold Forever",
+        "image": "https://images.financialmodelingprep.com/news/10-artificial-intelligence-ai-companies-to-buy-now-and-20250629.jpg",
+        "site": "fool.com",
+        "text": "From the growth of self-driving cars to the explosion in generative artificial intelligence (AI) capabilities, it's clear that AI is going to become increasingly integrated in our lives.",
+        "url": "https://www.fool.com/investing/2025/06/29/10-artificial-intelligence-ai-companies-to-buy-now/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-28 09:45:00",
+        "title": "Why Are Meta Platforms, Microsoft, and Nvidia Outperforming the \"Magnificent Seven\" and the S&P 500?",
+        "image": "https://images.financialmodelingprep.com/news/why-are-meta-platforms-microsoft-and-nvidia-outperforming-the-20250628.jpg",
+        "site": "fool.com",
+        "text": "Meta Platforms (META 1.04%), Microsoft (MSFT -0.28%), and Nvidia (NVDA 1.74%) are knocking on the door of all-time highs, whereas the other four \"Magnificent Seven\" stocks -- Amazon, Alphabet, Tesla, and Apple -- are down year to date. What gives?",
+        "url": "https://www.fool.com/investing/2025/06/28/meta-platforms-microsoft-nvidia-buy-growth-stocks/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-28 09:15:00",
+        "title": "The Dividend Investor's Quick-And-Dirty Guide To The Senate Budget Bill",
+        "image": "https://images.financialmodelingprep.com/news/the-dividend-investors-quickanddirty-guide-to-the-senate-budget-20250628.jpg",
+        "site": "seekingalpha.com",
+        "text": "\u201cOne Big Beautiful Bill\u201d inches closer to becoming law. It will have an impact on the broader economy, and especially certain specific sectors. Some dividend stocks could be in serious trouble, while others could gain. I share my take as a dividend investor.",
+        "url": "https://seekingalpha.com/article/4797925-the-dividend-investors-quick-and-dirty-guide-to-the-senate-budget-bill"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-28 08:00:00",
+        "title": "5 Best CEFs This Month For Yields Up To 15% (June 2025)",
+        "image": "https://images.financialmodelingprep.com/news/5-best-cefs-this-month-for-yields-up-to-20250628.jpg",
+        "site": "seekingalpha.com",
+        "text": "For income investors, closed-end funds remain an attractive investment class that covers various asset classes and promises high distributions and reasonable total returns. Closed-end funds, or CEFs, are generally characterized by higher volatility and deeper drawdowns than the broader market. For these reasons, they are not suited for everyone. In this monthly series, we highlight five CEFs with solid track records that pay high distributions and offer \"excess\" discounts. We try to separate the wheat from the chaff using our filtering process to select just five CEFs every month from around 500 closed-end funds.",
+        "url": "https://seekingalpha.com/article/4796599-5-best-cefs-this-month-for-yields-up-to-15-percent-june-2025"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-28 06:17:00",
+        "title": "Can Microsoft Join the $4 Trillion Club in 2025?",
+        "image": "https://images.financialmodelingprep.com/news/can-microsoft-join-the-4-trillion-club-in-2025-20250628.jpg",
+        "site": "fool.com",
+        "text": "Microsoft (MSFT -0.28%) had a market capitalization of $3.695 trillion as of Friday morning. That means its stock only needs to climb by another 8.3% for the company to become the founding member of the $4 trillion club, which I think is a very strong possibility by the end of 2025 (although Nvidia (NVDA 1.74%) with its $3.835 trillion market cap could get there first).",
+        "url": "https://www.fool.com/investing/2025/06/28/can-microsoft-join-the-4-trillion-club-in-2025/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-27 16:32:30",
+        "title": ":( Microsoft's \u2018Blue Screen of Death' Is Going Away",
+        "image": "https://images.financialmodelingprep.com/news/-microsofts-blue-screen-of-death-is-going-away-20250627.jpg",
+        "site": "nytimes.com",
+        "text": "The blue screen that stressed computer users for more than three decades is giving way to a black one.",
+        "url": "https://www.nytimes.com/2025/06/27/technology/microsoft-blue-screen-death-windows.html"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-06-27 16:09:59",
+        "title": "3 Stocks Hitting All-Time Highs With More Room to Run",
+        "image": "https://images.financialmodelingprep.com/news/3-stocks-hitting-alltime-highs-with-more-room-to-20250627.jpg",
+        "site": "marketbeat.com",
+        "text": "Investors finally got to celebrate some new all-time highs this week as the Nasdaq-100 posted its first record close since February, boosted by\u00a0NVIDIA Corp. NASDAQ: NVDA. The wait between new highs was even longer for NVDA, which closed at a record $149 on January 6 and failed to reclaim that price for nearly six months.",
+        "url": "https://www.marketbeat.com/stock-ideas/3-stocks-hitting-all-time-highs-with-more-room-to-run/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-14 09:11:00",
+        "title": "This Mistake Could Cost Investors in 2025",
+        "image": "https://images.financialmodelingprep.com/news/this-mistake-could-cost-investors-in-2025-20250714.jpg",
+        "site": "fool.com",
+        "text": "Investors have gotten good news lately. The U.S. stock market reacted positively to a stable unemployment rate of 4.1\u202f% in June 2025, which was lower than the expected 4.3%.",
+        "url": "https://www.fool.com/investing/2025/07/14/this-mistake-could-cost-investors-in-2025/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-14 08:15:00",
+        "title": "A Historic Opportunity For REIT Investors",
+        "image": "https://images.financialmodelingprep.com/news/a-historic-opportunity-for-reit-investors-20250714.jpg",
+        "site": "seekingalpha.com",
+        "text": "Today's market reminds us of 1999 in many ways. REITs were hated. Tech was loved. But afterward, REITs strongly outperformed. Here's why it could happen again.",
+        "url": "https://seekingalpha.com/article/4800978-a-historic-opportunity-for-reit-investors"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-14 08:00:00",
+        "title": "Esri Collaborates with Microsoft to Bring ArcGIS Users New AI Enhancements",
+        "image": "https://images.financialmodelingprep.com/news/esri-collaborates-with-microsoft-to-bring-arcgis-users-new-20250714.jpg",
+        "site": "businesswire.com",
+        "text": "REDLANDS, Calif.--(BUSINESS WIRE)--Esri, the global leader in geographic information system (GIS) technology, is integrating Microsoft Azure OpenAI Service into ArcGIS. This powerful collaboration equips users with all new AI assistants to simplify work with geospatial data, maps, and analytics. In addition, the AI's natural language interaction will enable users to quickly understand complex spatial problems. By automating spatial analyses, AI-enhanced GIS can enable organizations of all sizes.",
+        "url": "https://www.businesswire.com/news/home/20250714615254/en/Esri-Collaborates-with-Microsoft-to-Bring-ArcGIS-Users-New-AI-Enhancements/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-14 07:47:19",
+        "title": "AFT president on joining forces with Anthropic, Microsoft, and OpenAI to launch a new AI initiative",
+        "image": "https://images.financialmodelingprep.com/news/aft-president-on-joining-forces-with-anthropic-microsoft-and-20250714.jpg",
+        "site": "youtube.com",
+        "text": "Randi Weingarten, president at the American Federation of Teachers, joins \u2018Squawk Box' to discuss the AFT's partnership with Anthropic, Microsoft, and OpenAI on a new AI initiative, the challenges of AI in education, and more.",
+        "url": "https://www.youtube.com/watch?v=-h2fQz6aSEI"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-14 04:50:00",
+        "title": "Billionaire Warren Buffett Owns These 3 Quantum Computing Stocks. Should You?",
+        "image": "https://images.financialmodelingprep.com/news/billionaire-warren-buffett-owns-these-3-quantum-computing-stocks-20250714.jpg",
+        "site": "fool.com",
+        "text": "Theoretical physicist Richard Feynman once said, \"I think I can safely say that nobody understands quantum mechanics.\" Feynman, by the way, shared the 1965 Nobel Prize in physics for his work in quantum electrodynamics.",
+        "url": "https://www.fool.com/investing/2025/07/14/billionaire-warren-buffett-owns-these-3-quantum-co/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-13 21:30:00",
+        "title": "Nvidia Just Became the World's First $4 Trillion Stock. This Artificial Intelligence (AI) Giant -- Which Is up 686,000% Since Its IPO -- Might Be Next.",
+        "image": "https://images.financialmodelingprep.com/news/nvidia-just-became-the-worlds-first-4-trillion-stock-20250713.jpg",
+        "site": "fool.com",
+        "text": "Nvidia supplies the world's best artificial intelligence (AI) chips for data centers. Demand is heavily outstripping supply, sending the company's sales -- and its stock price -- surging over the last couple of years.",
+        "url": "https://www.fool.com/investing/2025/07/13/nvidia-became-4-trillion-stock-ai-686000-ipo-next/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-13 12:05:00",
+        "title": "Prediction: This Will Be The Next $4 Trillion-Dollar Stock",
+        "image": "https://images.financialmodelingprep.com/news/prediction-this-will-be-the-next-4-trilliondollar-stock-20250713.jpg",
+        "site": "fool.com",
+        "text": "Nvidia (NVDA 0.53%)has been firing on all cylinders over the past two years, and the company just added one more accomplishment to its long list of medals: The chipmaker became the first stock to hit the $4 trillion mark. It now sits as the most valuable company in the world, but others are close behind.",
+        "url": "https://www.fool.com/investing/2025/07/13/prediction-this-will-be-the-next-4-trillion-dollar/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-13 06:51:08",
+        "title": "Why Every AI Agent Will Likely Run On Microsoft",
+        "image": "https://images.financialmodelingprep.com/news/why-every-ai-agent-will-likely-run-on-microsoft-20250713.jpg",
+        "site": "seekingalpha.com",
+        "text": "Microsoft's Azure is leading the shift to multi-agent AI systems, creating new demand for its integrated cloud and orchestration infrastructure. Despite decelerating cloud growth, Microsoft's strong financials, high margins, and operational excellence support a 19.3% undervaluation and moderate upside. Azure's deep integration, enterprise features, and open-source strategy provide durable competitive advantages over AWS and other cloud rivals.",
+        "url": "https://seekingalpha.com/article/4800912-why-every-ai-agent-will-likely-run-on-microsoft"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-13 05:45:00",
+        "title": "10 Stock Splits Investors Could See Happen in 2026",
+        "image": "https://images.financialmodelingprep.com/news/10-stock-splits-investors-could-see-happen-in-2026-20250713.jpg",
+        "site": "fool.com",
+        "text": "Stock splits are less common than they used to be, as fractional shares have negated their effect. However, fractional shares aren't available to every investor, especially outside the U.S. Still, stock splits have their uses, namely for employee compensation.",
+        "url": "https://www.fool.com/investing/2025/07/13/10-stock-splits-investors-could-see-happen-in-2026/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-12 21:10:00",
+        "title": "These 5 Technology Stocks Are Money-Printing Machines",
+        "image": "https://images.financialmodelingprep.com/news/these-5-technology-stocks-are-moneyprinting-machines-20250712.jpg",
+        "site": "fool.com",
+        "text": "The technology sector can be a very profitable industry. Many tech companies generate reliable recurring revenues by selling their software to customers on a subscription basis.",
+        "url": "https://www.fool.com/investing/2025/07/12/these-5-technology-stocks-are-money-printing-machi/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-12 21:00:00",
+        "title": "Prediction: This Magnificent Artificial Intelligence (AI) Stock Will Be the Most Valuable Company in the World by 2030 (Hint: It's Not Nvidia or Microsoft)",
+        "image": "https://images.financialmodelingprep.com/news/prediction-this-magnificent-artificial-intelligence-ai-stock-will-be-20250712.jpg",
+        "site": "fool.com",
+        "text": "For about a year now, semiconductor powerhouse Nvidia and cloud computing giant Microsoft have been trading places for the most valuable company in the world. But as Nvidia inches closer to the coveted $4 trillion milestone, it might seem like the company is leaving its \"Magnificent Seven\" peers in the dust.",
+        "url": "https://www.fool.com/investing/2025/07/12/prediction-this-magnificent-artificial-intelligenc/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-12 12:00:00",
+        "title": "Trump's AI Masterplan and the Stocks That Benefit",
+        "image": "https://images.financialmodelingprep.com/news/trumps-ai-masterplan-and-the-stocks-that-benefit-20250712.jpg",
+        "site": "investorplace.com",
+        "text": "The Stocks to Buy if We Want to Win the AI Competition With China Competition can bring out the best in us. It can push an athlete to keep working harder toward a record, or victory over an opponent.",
+        "url": "https://investorplace.com/2025/07/trumps-ai-masterplan-and-the-stocks-that-benefit/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-12 10:00:45",
+        "title": "Here are the top stocks retail investors are buying right now",
+        "image": "https://images.financialmodelingprep.com/news/here-are-the-top-stocks-retail-investors-are-buying-20250712.jpg",
+        "site": "youtube.com",
+        "text": "Caleb Silver, editor-in-chief, Investopedia, joined TheStreet to share the must-have stocks that retail investors are adding to their portfolios.",
+        "url": "https://www.youtube.com/watch?v=NuYw-kIa6ZI"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-12 08:05:00",
+        "title": "7 Stocks I'm Buying As Tariffs And Deportations Prowl Behind The Rally",
+        "image": "https://images.financialmodelingprep.com/news/7-stocks-im-buying-as-tariffs-and-deportations-prowl-20250712.jpg",
+        "site": "seekingalpha.com",
+        "text": "Tariff risks are underappreciated by the market; persistently high tariffs could weigh on economic growth, and investor complacency is unwarranted. Slowing population growth and deportations threaten U.S. economic expansion, especially in labor-dependent sectors, as immigration is key to workforce and consumption growth. Utility-scale renewables remain resilient despite policy headwinds, with cost competitiveness and strong demand from major tech firms supporting continued growth.",
+        "url": "https://seekingalpha.com/article/4800298-7-stocks-i-am-buying-as-tariffs-deportations-prowl-behind-rally"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-12 05:15:00",
+        "title": "3 Millionaire-Maker Quantum Computing Stocks",
+        "image": "https://images.financialmodelingprep.com/news/3-millionairemaker-quantum-computing-stocks-20250712.jpg",
+        "site": "fool.com",
+        "text": "Quantum computing is one of the hottest trends in the market. It's an innovative technology that's starting to gain wider adoption, but we're still a few years away from widespread commercial use.",
+        "url": "https://www.fool.com/investing/2025/07/12/3-millionaire-maker-quantum-computing-stocks/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-11 15:01:37",
+        "title": "Ives: TSLA Disruption Ahead, PLTR $160 Call, NVDA & MSFT On Way to $5T",
+        "image": "https://images.financialmodelingprep.com/news/ives-tsla-disruption-ahead-pltr-160-call-nvda-msft-20250711.jpg",
+        "site": "youtube.com",
+        "text": "Wedbush's Dan Ives, the tech mega bull of Wall Street, returns to The Watch List to talk all things A.I. He continues to credit Elon Musk for Tesla's (TSLA) success and urges the \"board can't be asleep at the wheel\" when it comes to offering his pay package.",
+        "url": "https://www.youtube.com/watch?v=w8TeyEXCLoc"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-11 13:09:47",
+        "title": "Microsoft Prints Tens of Billions in Free Cash Flow. Time for a High-Yield Dividend?",
+        "image": "https://images.financialmodelingprep.com/news/microsoft-prints-tens-of-billions-in-free-cash-flow-20250711.jpg",
+        "site": "247wallst.com",
+        "text": "Technology companies have been powering the markets to new highs over the past several years as massive investments in AI, data centers and the cloud have paid off.",
+        "url": "https://247wallst.com/investing/2025/07/11/microsoft-prints-tens-of-billions-in-free-cash-flow-time-for-a-high-yield-dividend/"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-11 12:01:00",
+        "title": "Mar Vista U.S. Quality Q2 2025 Top Contributors And Detractors",
+        "image": "https://images.financialmodelingprep.com/news/mar-vista-us-quality-q2-2025-top-contributors-and-20250711.jpg",
+        "site": "seekingalpha.com",
+        "text": "Microsoft, Broadcom, and Oracle were among the portfolio's top contributors for the quarter. Alternatively, Apple, Johnson & Johnson, and Berkshire Hathaway detracted from performance. Microsoft shares rebounded in calendar Q2 following a strong fiscal Q3 2025 (March quarter), driven by accelerating demand for AI-related Azure services.",
+        "url": "https://seekingalpha.com/article/4800695-mar-vista-us-quality-q2-2025-top-contributors-detractors"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-11 08:26:54",
+        "title": "Basham: Microsoft is the name to own in the AI revolution",
+        "image": "https://images.financialmodelingprep.com/news/basham-microsoft-is-the-name-to-own-in-the-20250711.jpg",
+        "site": "youtube.com",
+        "text": "Seth Basham, Director of Equity Research at Wedbush Securities, says market confusion, tariff risk, and falling rates support AI leaders like Microsoft and value sectors like REITs and homebuilders.",
+        "url": "https://www.youtube.com/watch?v=eCQtiA4WHKs"
+    },
+    {
+        "symbol": "MSFT",
+        "publishedDate": "2025-07-11 08:26:07",
+        "title": "Buy These 5 Blue-Chip Stocks to Strengthen Your Portfolio in 2H25",
+        "image": "https://images.financialmodelingprep.com/news/buy-these-5-bluechip-stocks-to-strengthen-your-portfolio-20250711.jpg",
+        "site": "zacks.com",
+        "text": "Visa, Disney, Microsoft, Coca-Cola, and IBM show strong earnings momentum heading into the second half of 2025.",
+        "url": "https://www.zacks.com/stock/news/2573235/buy-these-5-blue-chip-stocks-to-strengthen-your-portfolio-in-2h25?cid=CS-STOCKNEWSAPI-FT-analyst_blog|investment_ideas-2573235"
     }
 ]
