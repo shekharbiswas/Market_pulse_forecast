@@ -336,16 +336,10 @@ lstm_explanation_protocol = {
 ```
 
 
-
-
-
-
-
-<br>
 <br>
 
 
 --- 
-SB &copy;
+                                                  SB &copy;
 
 
