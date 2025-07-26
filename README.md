@@ -341,6 +341,6 @@ lstm_explanation_protocol = {
 
 --- 
 
-                                                              SB &copy;
+SB &copy;
 
 
