@@ -346,6 +346,6 @@ lstm_explanation_protocol = {
 
 
 --- 
+SB &copy;
 
-MIT License.
 
